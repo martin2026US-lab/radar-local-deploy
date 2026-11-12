@@ -1,0 +1,12 @@
+{
+  "models/checkpoint_radar_pretrain.pth": {
+    "repo_id": "Alibaba-DAMO-Academy/RADAR",
+    "filename": "checkpoint_radar_pretrain.pth",
+    "sha256": "5e8b1b50b92162fcafcf8231e51ffbe9d1be2be52ccff4f967e4beb71e4499f4"
+  },
+  "models/bert-base-chinese/pytorch_model.bin": {
+    "repo_id": "Alibaba-DAMO-Academy/RADAR",
+    "filename": "bert-base-chinese/pytorch_model.bin",
+    "sha256": "8a693db616eaf647ed2bfe531e1fa446637358fc108a8bf04e8d4db17e837ee9"
+  }
+}

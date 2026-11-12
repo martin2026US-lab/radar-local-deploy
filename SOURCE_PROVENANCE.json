@@ -1,0 +1,32 @@
+{
+  "upstream": "https://github.com/alibaba-damo-academy/damo-radar",
+  "tested_commit": "0dbf0ece209b77d722588e5e7943014d3db48f7f",
+  "upstream_inference_sha256": "e32efc2f43046bbc28ea709d97419d3bb370de977c6111d1d2dc3aafe17c3c4d",
+  "frozen_CPU_stitch_base_sha256": "5d688c4b0b906b6d5cc5fefbb4290d180178e5842d429c0e06a648727226da66",
+  "tested_FP32_workspace_sha256": "052b219f8b69bb64b6cc0831032da0b1b8f18268746fcca26bf6b63d87a35a42",
+  "tested_stream_vision_sha256": "b42b398b5ea246260b10025e8d2d6a5551f1290c5ca9f28b6ed492916e256c9c",
+  "compact_training_state_removal": {
+    "original_sha256": "5e8b1b50b92162fcafcf8231e51ffbe9d1be2be52ccff4f967e4beb71e4499f4",
+    "compact_sha256": "596e40f189404d248e37f5d8466a9ca80cbc5c93a726a2d73222023c26ec8de1",
+    "original_bytes": 1566049482,
+    "compact_bytes": 522203623,
+    "all_model_tensors_exactly_equal": true,
+    "tensor_keys_checked": 693,
+    "text_encoder_retained": true,
+    "text_projection_retained": true,
+    "weight_dtype_changed": false,
+    "removed_top_keys": [
+      "optimizer",
+      "config",
+      "scaler",
+      "epoch"
+    ]
+  },
+  "portability_changes": [
+    "relative package/asset/output paths",
+    "single NIfTI input adapter with lossless LAS orientation",
+    "example reference CSV comparison removed",
+    "no changes to active model parameters, precision or CPU stitch arithmetic"
+  ],
+  "validation": "Frozen Windows measurements are the benchmark. The portable release wrapper receives static/path/hash validation; its new CLI has not been rerun on the200 CT cohort."
+}

@@ -1,0 +1,4742 @@
+[
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "主动脉_主动脉夹层",
+    "finite_pairs": 138,
+    "MAE": 0.00100566778143031,
+    "maximum": 0.02286207675933838,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "主动脉_主动脉瘤",
+    "finite_pairs": 138,
+    "MAE": 0.0011472785820091224,
+    "maximum": 0.02901172637939453,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "主动脉_粥样硬化",
+    "finite_pairs": 138,
+    "MAE": 0.0018490364292528534,
+    "maximum": 0.1601041555404663,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "主动脉_钙化",
+    "finite_pairs": 138,
+    "MAE": 0.0019694285069092893,
+    "maximum": 0.17835652828216553,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "十二指肠_占位",
+    "finite_pairs": 136,
+    "MAE": 0.0013171590262037866,
+    "maximum": 0.1352778673171997,
+    "missing": {
+      "both_organ_unscored": 2
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "十二指肠_囊袋状突出影",
+    "finite_pairs": 136,
+    "MAE": 0.00036795968052876345,
+    "maximum": 0.01683206856250763,
+    "missing": {
+      "both_organ_unscored": 2
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "十二指肠_憩室",
+    "finite_pairs": 136,
+    "MAE": 0.00036948304349447,
+    "maximum": 0.017111442983150482,
+    "missing": {
+      "both_organ_unscored": 2
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "十二指肠_梗阻",
+    "finite_pairs": 136,
+    "MAE": 0.001257205387125449,
+    "maximum": 0.10261029005050659,
+    "missing": {
+      "both_organ_unscored": 2
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "十二指肠_溃疡",
+    "finite_pairs": 136,
+    "MAE": 0.0015766025377053987,
+    "maximum": 0.15606826543807983,
+    "missing": {
+      "both_organ_unscored": 2
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "大肠_克罗恩病",
+    "finite_pairs": 138,
+    "MAE": 0.0007452315792603338,
+    "maximum": 0.04335370659828186,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "大肠_大肠（壁）钙化",
+    "finite_pairs": 138,
+    "MAE": 0.0009160547186553047,
+    "maximum": 0.031998127698898315,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "大肠_急慢性（结）肠炎",
+    "finite_pairs": 138,
+    "MAE": 0.0008107123169305639,
+    "maximum": 0.07135790586471558,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "大肠_浆膜面毛糙",
+    "finite_pairs": 138,
+    "MAE": 0.000177887817962851,
+    "maximum": 0.010572757571935654,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "大肠_溃疡性结肠炎",
+    "finite_pairs": 138,
+    "MAE": 0.0008330832379347091,
+    "maximum": 0.08092540502548218,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "大肠_直肠癌",
+    "finite_pairs": 138,
+    "MAE": 0.00013527900728808743,
+    "maximum": 0.0061254724860191345,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "大肠_积液积气",
+    "finite_pairs": 138,
+    "MAE": 0.0008941448000057236,
+    "maximum": 0.039587199687957764,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "大肠_结肠癌",
+    "finite_pairs": 138,
+    "MAE": 0.00030165840882176963,
+    "maximum": 0.01651877909898758,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "大肠_肠壁毛糙",
+    "finite_pairs": 138,
+    "MAE": 0.0001808153937800207,
+    "maximum": 0.011167876422405243,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "大肠_肠壁水肿",
+    "finite_pairs": 138,
+    "MAE": 0.0009394386661765368,
+    "maximum": 0.05745816230773926,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "大肠_肠套叠",
+    "finite_pairs": 138,
+    "MAE": 0.0006575838466971248,
+    "maximum": 0.02790394425392151,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "大肠_肠憩室",
+    "finite_pairs": 138,
+    "MAE": 0.0005862978708835832,
+    "maximum": 0.009127706289291382,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "大肠_肠梗阻",
+    "finite_pairs": 138,
+    "MAE": 0.000901773356536464,
+    "maximum": 0.0444507896900177,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "大肠_肠穿孔",
+    "finite_pairs": 138,
+    "MAE": 0.0010341520655724773,
+    "maximum": 0.04149419069290161,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "大肠_肠道扩张",
+    "finite_pairs": 138,
+    "MAE": 0.0009085274001151539,
+    "maximum": 0.04429888725280762,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "大肠_脂肪间隙模糊",
+    "finite_pairs": 138,
+    "MAE": 0.000295416705067391,
+    "maximum": 0.015617817640304565,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "大肠_阑尾炎",
+    "finite_pairs": 138,
+    "MAE": 0.0005222562383320452,
+    "maximum": 0.018627598881721497,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "大肠_阑尾粪石",
+    "finite_pairs": 138,
+    "MAE": 0.0004489667632657549,
+    "maximum": 0.008831754326820374,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "小肠_克罗恩病",
+    "finite_pairs": 138,
+    "MAE": 0.0007450176901487714,
+    "maximum": 0.02496337890625,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "小肠_套叠",
+    "finite_pairs": 138,
+    "MAE": 0.0008107242646856585,
+    "maximum": 0.01799064874649048,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "小肠_扭转",
+    "finite_pairs": 138,
+    "MAE": 0.0008634240665992695,
+    "maximum": 0.02200576663017273,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "小肠_梗阻",
+    "finite_pairs": 138,
+    "MAE": 0.0007900903644664483,
+    "maximum": 0.019003700464963913,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "小肠_淋巴瘤",
+    "finite_pairs": 138,
+    "MAE": 0.0004913311053499364,
+    "maximum": 0.016194462776184082,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "小肠_积气积液",
+    "finite_pairs": 138,
+    "MAE": 0.0007759668979037931,
+    "maximum": 0.03071625530719757,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "小肠_系膜指膜炎",
+    "finite_pairs": 138,
+    "MAE": 0.00040981308489606,
+    "maximum": 0.00666654109954834,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "小肠_系膜淋巴结肿大",
+    "finite_pairs": 138,
+    "MAE": 0.0005172247276303992,
+    "maximum": 0.013006836175918579,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "小肠_肠壁增厚",
+    "finite_pairs": 138,
+    "MAE": 0.0007793844535784876,
+    "maximum": 0.021571755409240723,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "小肠_肠管扩张",
+    "finite_pairs": 138,
+    "MAE": 0.0008095070598242075,
+    "maximum": 0.02658909559249878,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "小肠_脂肪瘤",
+    "finite_pairs": 138,
+    "MAE": 0.0008199241660211397,
+    "maximum": 0.03595742583274841,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "小肠_间质瘤（胃肠间质瘤-gist）",
+    "finite_pairs": 138,
+    "MAE": 0.0007113353113063436,
+    "maximum": 0.014182539656758308,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "小肠_（急慢性）小肠炎",
+    "finite_pairs": 138,
+    "MAE": 0.0007225263579512366,
+    "maximum": 0.025523632764816284,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "心脏_心包积液",
+    "finite_pairs": 136,
+    "MAE": 0.0009617870536578052,
+    "maximum": 0.017823711037635803,
+    "missing": {
+      "both_organ_unscored": 2
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "心脏_心影（脏）增大",
+    "finite_pairs": 136,
+    "MAE": 0.0013081947108730674,
+    "maximum": 0.016685470938682556,
+    "missing": {
+      "both_organ_unscored": 2
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "肋骨_转移瘤（乳腺癌 骨转移）",
+    "finite_pairs": 138,
+    "MAE": 0.0009439984889889972,
+    "maximum": 0.06545117497444153,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "肋骨_骨折",
+    "finite_pairs": 138,
+    "MAE": 0.0008412180873362914,
+    "maximum": 0.046080589294433594,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "肋骨_骨质破坏",
+    "finite_pairs": 138,
+    "MAE": 0.0008725715004771516,
+    "maximum": 0.04997444152832031,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "肝_低密度影",
+    "finite_pairs": 138,
+    "MAE": 0.0005842593444327392,
+    "maximum": 0.015747368335723877,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "肝_格林森鞘积液",
+    "finite_pairs": 138,
+    "MAE": 0.0003737481156481342,
+    "maximum": 0.01938467100262642,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "肝_比例失调",
+    "finite_pairs": 138,
+    "MAE": 0.0005897894178275053,
+    "maximum": 0.042691417038440704,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "肝_波浪状改变",
+    "finite_pairs": 138,
+    "MAE": 0.00032033393191617824,
+    "maximum": 0.021007422357797623,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "肝_硬化",
+    "finite_pairs": 138,
+    "MAE": 0.0003754195720935915,
+    "maximum": 0.025018488988280296,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "肝_结节状强化",
+    "finite_pairs": 138,
+    "MAE": 0.0005572724636505776,
+    "maximum": 0.01414555311203003,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "肝_肝内胆管扩张",
+    "finite_pairs": 138,
+    "MAE": 0.00035196557386687186,
+    "maximum": 0.009847164154052734,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "肝_肝内胆管结石",
+    "finite_pairs": 138,
+    "MAE": 0.00048649848817597336,
+    "maximum": 0.019161760807037354,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "肝_肝内钙化灶",
+    "finite_pairs": 138,
+    "MAE": 0.00046319904841779584,
+    "maximum": 0.007270980626344681,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "肝_肝囊肿",
+    "finite_pairs": 138,
+    "MAE": 0.000518972195530533,
+    "maximum": 0.011384904384613037,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "肝_肝细胞癌",
+    "finite_pairs": 138,
+    "MAE": 0.00025075965030559337,
+    "maximum": 0.007547385990619659,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "肝_肝胆管内高密度影",
+    "finite_pairs": 138,
+    "MAE": 0.000496125783232513,
+    "maximum": 0.019738346338272095,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "肝_肝血管瘤",
+    "finite_pairs": 138,
+    "MAE": 0.000714173528451837,
+    "maximum": 0.009135529398918152,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "肝_胆管癌",
+    "finite_pairs": 138,
+    "MAE": 0.0004046854615046908,
+    "maximum": 0.020853303372859955,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "肝_脂肪肝",
+    "finite_pairs": 138,
+    "MAE": 0.0014856908893452255,
+    "maximum": 0.04410722851753235,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "肝_脓肿",
+    "finite_pairs": 138,
+    "MAE": 0.0006548896766933309,
+    "maximum": 0.022062063217163086,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "肝_转移瘤",
+    "finite_pairs": 138,
+    "MAE": 0.0005214316394509902,
+    "maximum": 0.006958961486816406,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "肝_边缘不规则",
+    "finite_pairs": 138,
+    "MAE": 0.0003094979642744453,
+    "maximum": 0.01181117258965969,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "肺_斑片影",
+    "finite_pairs": 138,
+    "MAE": 0.0003755703042058841,
+    "maximum": 0.0203687846660614,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "肺_气胸",
+    "finite_pairs": 138,
+    "MAE": 0.00027202851935357285,
+    "maximum": 0.011252403259277344,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "肺_结节",
+    "finite_pairs": 138,
+    "MAE": 0.0005313329418878193,
+    "maximum": 0.028746917843818665,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "肺_肺占位",
+    "finite_pairs": 138,
+    "MAE": 0.000576371225811865,
+    "maximum": 0.034460604190826416,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "肺_肺萎陷",
+    "finite_pairs": 138,
+    "MAE": 0.00028278349655801833,
+    "maximum": 0.006454311311244965,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "肺_胸腔积液",
+    "finite_pairs": 138,
+    "MAE": 0.00025819368201537407,
+    "maximum": 0.006839372217655182,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "肺_膨胀不全",
+    "finite_pairs": 138,
+    "MAE": 0.00028438062366584074,
+    "maximum": 0.00648362934589386,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "肺_转移瘤",
+    "finite_pairs": 138,
+    "MAE": 0.0006655527977272868,
+    "maximum": 0.04197373986244202,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "肺_钙化灶",
+    "finite_pairs": 138,
+    "MAE": 0.0002689298505530409,
+    "maximum": 0.01130349189043045,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "肺_高密度影",
+    "finite_pairs": 138,
+    "MAE": 0.000539127811519564,
+    "maximum": 0.02685144543647766,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "肾_低密度影",
+    "finite_pairs": 138,
+    "MAE": 0.0006896679625387533,
+    "maximum": 0.03779250383377075,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "肾_囊肿",
+    "finite_pairs": 138,
+    "MAE": 0.0007031176186949555,
+    "maximum": 0.03782743215560913,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "肾_多囊肾",
+    "finite_pairs": 138,
+    "MAE": 0.0011599856148097679,
+    "maximum": 0.10734528303146362,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "肾_实质变薄",
+    "finite_pairs": 138,
+    "MAE": 0.0002990817815968868,
+    "maximum": 0.003137558698654175,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "肾_无强化囊性灶",
+    "finite_pairs": 138,
+    "MAE": 0.0006751669596111321,
+    "maximum": 0.03735697269439697,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "肾_肾动脉瘤",
+    "finite_pairs": 138,
+    "MAE": 0.0008855999600938588,
+    "maximum": 0.06353938579559326,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "肾_肾盂扩张",
+    "finite_pairs": 138,
+    "MAE": 0.0011218911909120347,
+    "maximum": 0.09771907329559326,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "肾_肾盂癌",
+    "finite_pairs": 138,
+    "MAE": 0.0009256248367423921,
+    "maximum": 0.07587173581123352,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "肾_肾盂积水",
+    "finite_pairs": 138,
+    "MAE": 0.001134237571892774,
+    "maximum": 0.10051524639129639,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "肾_肾细胞癌（透明细胞癌）",
+    "finite_pairs": 138,
+    "MAE": 0.000525973888664115,
+    "maximum": 0.011462211608886719,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "肾_肾萎缩",
+    "finite_pairs": 138,
+    "MAE": 0.0003185468985052928,
+    "maximum": 0.004221856594085693,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "肾_肾血管平滑肌脂肪瘤",
+    "finite_pairs": 138,
+    "MAE": 0.0006919272141269597,
+    "maximum": 0.010128378868103027,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "肾_肾（盂）结石",
+    "finite_pairs": 138,
+    "MAE": 0.0006185290859202328,
+    "maximum": 0.04220053553581238,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "肾_高密度影",
+    "finite_pairs": 138,
+    "MAE": 0.0006345129112942495,
+    "maximum": 0.04142731428146362,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "肾上腺_增生",
+    "finite_pairs": 134,
+    "MAE": 0.0012699810496128317,
+    "maximum": 0.0697910487651825,
+    "missing": {
+      "both_organ_unscored": 3,
+      "missing_mismatch": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "肾上腺_结节",
+    "finite_pairs": 134,
+    "MAE": 0.0007525041574306452,
+    "maximum": 0.023300081491470337,
+    "missing": {
+      "both_organ_unscored": 3,
+      "missing_mismatch": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "肾上腺_脂肪瘤",
+    "finite_pairs": 134,
+    "MAE": 0.001351019954864881,
+    "maximum": 0.05129728466272354,
+    "missing": {
+      "both_organ_unscored": 3,
+      "missing_mismatch": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "肾上腺_腺瘤",
+    "finite_pairs": 134,
+    "MAE": 0.0005889069558288068,
+    "maximum": 0.008726069703698158,
+    "missing": {
+      "both_organ_unscored": 3,
+      "missing_mismatch": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "肾上腺_转移瘤",
+    "finite_pairs": 134,
+    "MAE": 0.0005219270898300265,
+    "maximum": 0.010577261447906494,
+    "missing": {
+      "both_organ_unscored": 3,
+      "missing_mismatch": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "肾上腺_钙化",
+    "finite_pairs": 134,
+    "MAE": 0.0007173051265304658,
+    "maximum": 0.039854273200035095,
+    "missing": {
+      "both_organ_unscored": 3,
+      "missing_mismatch": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "胃_壁水肿",
+    "finite_pairs": 137,
+    "MAE": 0.0010618079949958916,
+    "maximum": 0.05924881994724274,
+    "missing": {
+      "missing_mismatch": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "胃_扩张",
+    "finite_pairs": 137,
+    "MAE": 0.000923851702063188,
+    "maximum": 0.04299755394458771,
+    "missing": {
+      "missing_mismatch": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "胃_胃底静脉曲张",
+    "finite_pairs": 137,
+    "MAE": 0.0004827096738791379,
+    "maximum": 0.008168518543243408,
+    "missing": {
+      "missing_mismatch": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "胃_胃溃疡",
+    "finite_pairs": 137,
+    "MAE": 0.00034769981875199907,
+    "maximum": 0.015148652717471123,
+    "missing": {
+      "missing_mismatch": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "胃_胃癌",
+    "finite_pairs": 137,
+    "MAE": 0.00026830071608882644,
+    "maximum": 0.013100305572152138,
+    "missing": {
+      "missing_mismatch": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "胃_间质瘤（gist）",
+    "finite_pairs": 137,
+    "MAE": 0.0006571050791110653,
+    "maximum": 0.02398424595594406,
+    "missing": {
+      "missing_mismatch": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "胆囊_结石",
+    "finite_pairs": 135,
+    "MAE": 0.0006557810978308597,
+    "maximum": 0.04134528338909149,
+    "missing": {
+      "both_organ_unscored": 3
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "胆囊_结节状致密影",
+    "finite_pairs": 135,
+    "MAE": 0.000567314724644853,
+    "maximum": 0.033062852919101715,
+    "missing": {
+      "both_organ_unscored": 3
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "胆囊_胆囊增大",
+    "finite_pairs": 135,
+    "MAE": 0.000630453541547198,
+    "maximum": 0.02520892024040222,
+    "missing": {
+      "both_organ_unscored": 3
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "胆囊_胆囊炎",
+    "finite_pairs": 135,
+    "MAE": 0.0007264006072310385,
+    "maximum": 0.05212321877479553,
+    "missing": {
+      "both_organ_unscored": 3
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "胆囊_胆囊癌",
+    "finite_pairs": 135,
+    "MAE": 0.0007237845230621234,
+    "maximum": 0.05296899378299713,
+    "missing": {
+      "both_organ_unscored": 3
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "胆囊_胆囊腺肌症",
+    "finite_pairs": 135,
+    "MAE": 0.001225681906389245,
+    "maximum": 0.0579691082239151,
+    "missing": {
+      "both_organ_unscored": 3
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "胆囊_胆管壁增厚",
+    "finite_pairs": 135,
+    "MAE": 0.00037957892270275843,
+    "maximum": 0.018930353224277496,
+    "missing": {
+      "both_organ_unscored": 3
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "胆囊_胆管扩张",
+    "finite_pairs": 135,
+    "MAE": 0.0004434101031317065,
+    "maximum": 0.017383597791194916,
+    "missing": {
+      "both_organ_unscored": 3
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "胆囊_胆管炎",
+    "finite_pairs": 135,
+    "MAE": 0.0003900107548192695,
+    "maximum": 0.01245841383934021,
+    "missing": {
+      "both_organ_unscored": 3
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "胆囊_胆管癌",
+    "finite_pairs": 135,
+    "MAE": 0.00034013127749656433,
+    "maximum": 0.012519143521785736,
+    "missing": {
+      "both_organ_unscored": 3
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "胆囊_胆管积气",
+    "finite_pairs": 135,
+    "MAE": 0.0011231222487468686,
+    "maximum": 0.07632812857627869,
+    "missing": {
+      "both_organ_unscored": 3
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "胆囊_胆管结石",
+    "finite_pairs": 135,
+    "MAE": 0.0009093185266936888,
+    "maximum": 0.06399345397949219,
+    "missing": {
+      "both_organ_unscored": 3
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "胆囊_高密度影",
+    "finite_pairs": 135,
+    "MAE": 0.0007733789811566196,
+    "maximum": 0.053723156452178955,
+    "missing": {
+      "both_organ_unscored": 3
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "胆囊_黄色肉芽肿",
+    "finite_pairs": 135,
+    "MAE": 0.00030734258076942447,
+    "maximum": 0.00986570492386818,
+    "missing": {
+      "both_organ_unscored": 3
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "胰腺_低密度影",
+    "finite_pairs": 137,
+    "MAE": 0.0008593631337267639,
+    "maximum": 0.06859099864959717,
+    "missing": {
+      "both_organ_unscored": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "胰腺_囊肿",
+    "finite_pairs": 137,
+    "MAE": 0.0006169384501765679,
+    "maximum": 0.026114702224731445,
+    "missing": {
+      "both_organ_unscored": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "胰腺_围脂肪间隙模糊",
+    "finite_pairs": 137,
+    "MAE": 0.0014330847658315523,
+    "maximum": 0.13930058479309082,
+    "missing": {
+      "both_organ_unscored": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "胰腺_肿瘤或胰腺癌",
+    "finite_pairs": 137,
+    "MAE": 0.0005021305837312434,
+    "maximum": 0.015287458896636963,
+    "missing": {
+      "both_organ_unscored": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "胰腺_胰周假性囊肿",
+    "finite_pairs": 137,
+    "MAE": 0.0011954816957628932,
+    "maximum": 0.10836458206176758,
+    "missing": {
+      "both_organ_unscored": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "胰腺_胰管扩张",
+    "finite_pairs": 137,
+    "MAE": 0.0004492891598900739,
+    "maximum": 0.004730090498924255,
+    "missing": {
+      "both_organ_unscored": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "胰腺_胰管结石",
+    "finite_pairs": 137,
+    "MAE": 0.0006540283325160548,
+    "maximum": 0.01953500509262085,
+    "missing": {
+      "both_organ_unscored": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "胰腺_胰腺炎",
+    "finite_pairs": 137,
+    "MAE": 0.0015773885737022004,
+    "maximum": 0.15121591091156006,
+    "missing": {
+      "both_organ_unscored": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "胰腺_胰腺饱满",
+    "finite_pairs": 137,
+    "MAE": 0.0013704477494113473,
+    "maximum": 0.12945640087127686,
+    "missing": {
+      "both_organ_unscored": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "胰腺_萎缩",
+    "finite_pairs": 137,
+    "MAE": 0.0007674537958529689,
+    "maximum": 0.015347175300121307,
+    "missing": {
+      "both_organ_unscored": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "脾_低密度灶",
+    "finite_pairs": 138,
+    "MAE": 0.0011965668240589075,
+    "maximum": 0.027362409979104996,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "脾_副脾",
+    "finite_pairs": 138,
+    "MAE": 0.0004985137425862468,
+    "maximum": 0.025013504549860954,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "脾_囊肿",
+    "finite_pairs": 138,
+    "MAE": 0.0010488932139064739,
+    "maximum": 0.02930266782641411,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "脾_梗死",
+    "finite_pairs": 138,
+    "MAE": 0.0024462628717773823,
+    "maximum": 0.17598959803581238,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "脾_片状低密度区",
+    "finite_pairs": 138,
+    "MAE": 0.0011947372678559327,
+    "maximum": 0.026059407740831375,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "脾_脾大",
+    "finite_pairs": 138,
+    "MAE": 0.0013765163451392689,
+    "maximum": 0.10278709977865219,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "脾_脾脏淋巴瘤",
+    "finite_pairs": 138,
+    "MAE": 0.0020230481142947533,
+    "maximum": 0.0914277620613575,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "脾_钙化",
+    "finite_pairs": 138,
+    "MAE": 0.000781450744556344,
+    "maximum": 0.038296908140182495,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "膀胱_憩室",
+    "finite_pairs": 89,
+    "MAE": 0.0006376430666953157,
+    "maximum": 0.010119006037712097,
+    "missing": {
+      "both_organ_unscored": 49
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "膀胱_结石",
+    "finite_pairs": 89,
+    "MAE": 0.0006323660975008198,
+    "maximum": 0.01661871373653412,
+    "missing": {
+      "both_organ_unscored": 49
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "膀胱_膀胱壁毛糙",
+    "finite_pairs": 89,
+    "MAE": 0.000480580645916837,
+    "maximum": 0.010187316685914993,
+    "missing": {
+      "both_organ_unscored": 49
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "膀胱_膀胱炎",
+    "finite_pairs": 89,
+    "MAE": 0.00043082223640064177,
+    "maximum": 0.0061402954161167145,
+    "missing": {
+      "both_organ_unscored": 49
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "膀胱_膀胱癌",
+    "finite_pairs": 89,
+    "MAE": 0.0001538129172842489,
+    "maximum": 0.002356112003326416,
+    "missing": {
+      "both_organ_unscored": 49
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "膀胱_软组织密度影",
+    "finite_pairs": 89,
+    "MAE": 0.00017357046919969026,
+    "maximum": 0.0030508041381835938,
+    "missing": {
+      "both_organ_unscored": 49
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "门静脉_增宽",
+    "finite_pairs": 135,
+    "MAE": 0.0008493837141604335,
+    "maximum": 0.06882613152265549,
+    "missing": {
+      "both_organ_unscored": 3
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "门静脉_栓塞",
+    "finite_pairs": 135,
+    "MAE": 0.0005977861423700772,
+    "maximum": 0.03872695565223694,
+    "missing": {
+      "both_organ_unscored": 3
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "门静脉_高压",
+    "finite_pairs": 135,
+    "MAE": 0.0006662347733422562,
+    "maximum": 0.05796804279088974,
+    "missing": {
+      "both_organ_unscored": 3
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "食管_增粗迂曲血管影",
+    "finite_pairs": 136,
+    "MAE": 0.0004673752255792565,
+    "maximum": 0.018722549080848694,
+    "missing": {
+      "both_organ_unscored": 2
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "食管_管壁增厚",
+    "finite_pairs": 136,
+    "MAE": 0.001145043143290369,
+    "maximum": 0.05467088520526886,
+    "missing": {
+      "both_organ_unscored": 2
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "食管_裂孔疝",
+    "finite_pairs": 136,
+    "MAE": 0.0017020818503463968,
+    "maximum": 0.08188080787658691,
+    "missing": {
+      "both_organ_unscored": 2
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "食管_静脉扩张迂曲",
+    "finite_pairs": 136,
+    "MAE": 0.0004646676722640062,
+    "maximum": 0.018536165356636047,
+    "missing": {
+      "both_organ_unscored": 2
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "食管_静脉曲张",
+    "finite_pairs": 136,
+    "MAE": 0.0004589467768228668,
+    "maximum": 0.018124595284461975,
+    "missing": {
+      "both_organ_unscored": 2
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "gpu_fp16_cpu_stitch",
+    "finding": "骶骨_骨炎",
+    "finite_pairs": 117,
+    "MAE": 0.0012157375264602404,
+    "maximum": 0.11123126745223999,
+    "missing": {
+      "both_organ_unscored": 21
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "主动脉_主动脉夹层",
+    "finite_pairs": 138,
+    "MAE": 0.00100566778143031,
+    "maximum": 0.02286207675933838,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "主动脉_主动脉瘤",
+    "finite_pairs": 138,
+    "MAE": 0.0011472785820091224,
+    "maximum": 0.02901172637939453,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "主动脉_粥样硬化",
+    "finite_pairs": 138,
+    "MAE": 0.0018490364292528534,
+    "maximum": 0.1601041555404663,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "主动脉_钙化",
+    "finite_pairs": 138,
+    "MAE": 0.0019694285069092893,
+    "maximum": 0.17835652828216553,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "十二指肠_占位",
+    "finite_pairs": 136,
+    "MAE": 0.0013171590262037866,
+    "maximum": 0.1352778673171997,
+    "missing": {
+      "both_organ_unscored": 2
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "十二指肠_囊袋状突出影",
+    "finite_pairs": 136,
+    "MAE": 0.00036795968052876345,
+    "maximum": 0.01683206856250763,
+    "missing": {
+      "both_organ_unscored": 2
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "十二指肠_憩室",
+    "finite_pairs": 136,
+    "MAE": 0.00036948304349447,
+    "maximum": 0.017111442983150482,
+    "missing": {
+      "both_organ_unscored": 2
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "十二指肠_梗阻",
+    "finite_pairs": 136,
+    "MAE": 0.001257205387125449,
+    "maximum": 0.10261029005050659,
+    "missing": {
+      "both_organ_unscored": 2
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "十二指肠_溃疡",
+    "finite_pairs": 136,
+    "MAE": 0.0015766025377053987,
+    "maximum": 0.15606826543807983,
+    "missing": {
+      "both_organ_unscored": 2
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "大肠_克罗恩病",
+    "finite_pairs": 138,
+    "MAE": 0.0007452315792603338,
+    "maximum": 0.04335370659828186,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "大肠_大肠（壁）钙化",
+    "finite_pairs": 138,
+    "MAE": 0.0009160547186553047,
+    "maximum": 0.031998127698898315,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "大肠_急慢性（结）肠炎",
+    "finite_pairs": 138,
+    "MAE": 0.0008107123169305639,
+    "maximum": 0.07135790586471558,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "大肠_浆膜面毛糙",
+    "finite_pairs": 138,
+    "MAE": 0.000177887817962851,
+    "maximum": 0.010572757571935654,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "大肠_溃疡性结肠炎",
+    "finite_pairs": 138,
+    "MAE": 0.0008330832379347091,
+    "maximum": 0.08092540502548218,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "大肠_直肠癌",
+    "finite_pairs": 138,
+    "MAE": 0.00013527900728808743,
+    "maximum": 0.0061254724860191345,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "大肠_积液积气",
+    "finite_pairs": 138,
+    "MAE": 0.0008941448000057236,
+    "maximum": 0.039587199687957764,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "大肠_结肠癌",
+    "finite_pairs": 138,
+    "MAE": 0.00030165840882176963,
+    "maximum": 0.01651877909898758,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "大肠_肠壁毛糙",
+    "finite_pairs": 138,
+    "MAE": 0.0001808153937800207,
+    "maximum": 0.011167876422405243,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "大肠_肠壁水肿",
+    "finite_pairs": 138,
+    "MAE": 0.0009394386661765368,
+    "maximum": 0.05745816230773926,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "大肠_肠套叠",
+    "finite_pairs": 138,
+    "MAE": 0.0006575838466971248,
+    "maximum": 0.02790394425392151,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "大肠_肠憩室",
+    "finite_pairs": 138,
+    "MAE": 0.0005862978708835832,
+    "maximum": 0.009127706289291382,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "大肠_肠梗阻",
+    "finite_pairs": 138,
+    "MAE": 0.000901773356536464,
+    "maximum": 0.0444507896900177,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "大肠_肠穿孔",
+    "finite_pairs": 138,
+    "MAE": 0.0010341520655724773,
+    "maximum": 0.04149419069290161,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "大肠_肠道扩张",
+    "finite_pairs": 138,
+    "MAE": 0.0009085274001151539,
+    "maximum": 0.04429888725280762,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "大肠_脂肪间隙模糊",
+    "finite_pairs": 138,
+    "MAE": 0.000295416705067391,
+    "maximum": 0.015617817640304565,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "大肠_阑尾炎",
+    "finite_pairs": 138,
+    "MAE": 0.0005222562383320452,
+    "maximum": 0.018627598881721497,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "大肠_阑尾粪石",
+    "finite_pairs": 138,
+    "MAE": 0.0004489667632657549,
+    "maximum": 0.008831754326820374,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "小肠_克罗恩病",
+    "finite_pairs": 138,
+    "MAE": 0.0007450176901487714,
+    "maximum": 0.02496337890625,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "小肠_套叠",
+    "finite_pairs": 138,
+    "MAE": 0.0008107242646856585,
+    "maximum": 0.01799064874649048,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "小肠_扭转",
+    "finite_pairs": 138,
+    "MAE": 0.0008634240665992695,
+    "maximum": 0.02200576663017273,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "小肠_梗阻",
+    "finite_pairs": 138,
+    "MAE": 0.0007900903644664483,
+    "maximum": 0.019003700464963913,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "小肠_淋巴瘤",
+    "finite_pairs": 138,
+    "MAE": 0.0004913311053499364,
+    "maximum": 0.016194462776184082,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "小肠_积气积液",
+    "finite_pairs": 138,
+    "MAE": 0.0007759668979037931,
+    "maximum": 0.03071625530719757,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "小肠_系膜指膜炎",
+    "finite_pairs": 138,
+    "MAE": 0.00040981308489606,
+    "maximum": 0.00666654109954834,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "小肠_系膜淋巴结肿大",
+    "finite_pairs": 138,
+    "MAE": 0.0005172247276303992,
+    "maximum": 0.013006836175918579,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "小肠_肠壁增厚",
+    "finite_pairs": 138,
+    "MAE": 0.0007793844535784876,
+    "maximum": 0.021571755409240723,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "小肠_肠管扩张",
+    "finite_pairs": 138,
+    "MAE": 0.0008095070598242075,
+    "maximum": 0.02658909559249878,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "小肠_脂肪瘤",
+    "finite_pairs": 138,
+    "MAE": 0.0008199241660211397,
+    "maximum": 0.03595742583274841,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "小肠_间质瘤（胃肠间质瘤-gist）",
+    "finite_pairs": 138,
+    "MAE": 0.0007113353113063436,
+    "maximum": 0.014182539656758308,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "小肠_（急慢性）小肠炎",
+    "finite_pairs": 138,
+    "MAE": 0.0007225263579512366,
+    "maximum": 0.025523632764816284,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "心脏_心包积液",
+    "finite_pairs": 136,
+    "MAE": 0.0009617870536578052,
+    "maximum": 0.017823711037635803,
+    "missing": {
+      "both_organ_unscored": 2
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "心脏_心影（脏）增大",
+    "finite_pairs": 136,
+    "MAE": 0.0013081947108730674,
+    "maximum": 0.016685470938682556,
+    "missing": {
+      "both_organ_unscored": 2
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "肋骨_转移瘤（乳腺癌 骨转移）",
+    "finite_pairs": 138,
+    "MAE": 0.0009439984889889972,
+    "maximum": 0.06545117497444153,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "肋骨_骨折",
+    "finite_pairs": 138,
+    "MAE": 0.0008412180873362914,
+    "maximum": 0.046080589294433594,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "肋骨_骨质破坏",
+    "finite_pairs": 138,
+    "MAE": 0.0008725715004771516,
+    "maximum": 0.04997444152832031,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "肝_低密度影",
+    "finite_pairs": 138,
+    "MAE": 0.0005842593444327392,
+    "maximum": 0.015747368335723877,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "肝_格林森鞘积液",
+    "finite_pairs": 138,
+    "MAE": 0.0003737481156481342,
+    "maximum": 0.01938467100262642,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "肝_比例失调",
+    "finite_pairs": 138,
+    "MAE": 0.0005897894178275053,
+    "maximum": 0.042691417038440704,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "肝_波浪状改变",
+    "finite_pairs": 138,
+    "MAE": 0.00032033393191617824,
+    "maximum": 0.021007422357797623,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "肝_硬化",
+    "finite_pairs": 138,
+    "MAE": 0.0003754195720935915,
+    "maximum": 0.025018488988280296,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "肝_结节状强化",
+    "finite_pairs": 138,
+    "MAE": 0.0005572724636505776,
+    "maximum": 0.01414555311203003,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "肝_肝内胆管扩张",
+    "finite_pairs": 138,
+    "MAE": 0.00035196557386687186,
+    "maximum": 0.009847164154052734,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "肝_肝内胆管结石",
+    "finite_pairs": 138,
+    "MAE": 0.00048649848817597336,
+    "maximum": 0.019161760807037354,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "肝_肝内钙化灶",
+    "finite_pairs": 138,
+    "MAE": 0.00046319904841779584,
+    "maximum": 0.007270980626344681,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "肝_肝囊肿",
+    "finite_pairs": 138,
+    "MAE": 0.000518972195530533,
+    "maximum": 0.011384904384613037,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "肝_肝细胞癌",
+    "finite_pairs": 138,
+    "MAE": 0.00025075965030559337,
+    "maximum": 0.007547385990619659,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "肝_肝胆管内高密度影",
+    "finite_pairs": 138,
+    "MAE": 0.000496125783232513,
+    "maximum": 0.019738346338272095,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "肝_肝血管瘤",
+    "finite_pairs": 138,
+    "MAE": 0.000714173528451837,
+    "maximum": 0.009135529398918152,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "肝_胆管癌",
+    "finite_pairs": 138,
+    "MAE": 0.0004046854615046908,
+    "maximum": 0.020853303372859955,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "肝_脂肪肝",
+    "finite_pairs": 138,
+    "MAE": 0.0014856908893452255,
+    "maximum": 0.04410722851753235,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "肝_脓肿",
+    "finite_pairs": 138,
+    "MAE": 0.0006548896766933309,
+    "maximum": 0.022062063217163086,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "肝_转移瘤",
+    "finite_pairs": 138,
+    "MAE": 0.0005214316394509902,
+    "maximum": 0.006958961486816406,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "肝_边缘不规则",
+    "finite_pairs": 138,
+    "MAE": 0.0003094979642744453,
+    "maximum": 0.01181117258965969,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "肺_斑片影",
+    "finite_pairs": 138,
+    "MAE": 0.0003755703042058841,
+    "maximum": 0.0203687846660614,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "肺_气胸",
+    "finite_pairs": 138,
+    "MAE": 0.00027202851935357285,
+    "maximum": 0.011252403259277344,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "肺_结节",
+    "finite_pairs": 138,
+    "MAE": 0.0005313329418878193,
+    "maximum": 0.028746917843818665,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "肺_肺占位",
+    "finite_pairs": 138,
+    "MAE": 0.000576371225811865,
+    "maximum": 0.034460604190826416,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "肺_肺萎陷",
+    "finite_pairs": 138,
+    "MAE": 0.00028278349655801833,
+    "maximum": 0.006454311311244965,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "肺_胸腔积液",
+    "finite_pairs": 138,
+    "MAE": 0.00025819368201537407,
+    "maximum": 0.006839372217655182,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "肺_膨胀不全",
+    "finite_pairs": 138,
+    "MAE": 0.00028438062366584074,
+    "maximum": 0.00648362934589386,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "肺_转移瘤",
+    "finite_pairs": 138,
+    "MAE": 0.0006655527977272868,
+    "maximum": 0.04197373986244202,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "肺_钙化灶",
+    "finite_pairs": 138,
+    "MAE": 0.0002689298505530409,
+    "maximum": 0.01130349189043045,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "肺_高密度影",
+    "finite_pairs": 138,
+    "MAE": 0.000539127811519564,
+    "maximum": 0.02685144543647766,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "肾_低密度影",
+    "finite_pairs": 138,
+    "MAE": 0.0006896679625387533,
+    "maximum": 0.03779250383377075,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "肾_囊肿",
+    "finite_pairs": 138,
+    "MAE": 0.0007031176186949555,
+    "maximum": 0.03782743215560913,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "肾_多囊肾",
+    "finite_pairs": 138,
+    "MAE": 0.0011599856148097679,
+    "maximum": 0.10734528303146362,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "肾_实质变薄",
+    "finite_pairs": 138,
+    "MAE": 0.0002990817815968868,
+    "maximum": 0.003137558698654175,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "肾_无强化囊性灶",
+    "finite_pairs": 138,
+    "MAE": 0.0006751669596111321,
+    "maximum": 0.03735697269439697,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "肾_肾动脉瘤",
+    "finite_pairs": 138,
+    "MAE": 0.0008855999600938588,
+    "maximum": 0.06353938579559326,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "肾_肾盂扩张",
+    "finite_pairs": 138,
+    "MAE": 0.0011218911909120347,
+    "maximum": 0.09771907329559326,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "肾_肾盂癌",
+    "finite_pairs": 138,
+    "MAE": 0.0009256248367423921,
+    "maximum": 0.07587173581123352,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "肾_肾盂积水",
+    "finite_pairs": 138,
+    "MAE": 0.001134237571892774,
+    "maximum": 0.10051524639129639,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "肾_肾细胞癌（透明细胞癌）",
+    "finite_pairs": 138,
+    "MAE": 0.000525973888664115,
+    "maximum": 0.011462211608886719,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "肾_肾萎缩",
+    "finite_pairs": 138,
+    "MAE": 0.0003185468985052928,
+    "maximum": 0.004221856594085693,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "肾_肾血管平滑肌脂肪瘤",
+    "finite_pairs": 138,
+    "MAE": 0.0006919272141269597,
+    "maximum": 0.010128378868103027,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "肾_肾（盂）结石",
+    "finite_pairs": 138,
+    "MAE": 0.0006185290859202328,
+    "maximum": 0.04220053553581238,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "肾_高密度影",
+    "finite_pairs": 138,
+    "MAE": 0.0006345129112942495,
+    "maximum": 0.04142731428146362,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "肾上腺_增生",
+    "finite_pairs": 134,
+    "MAE": 0.0012699810496128317,
+    "maximum": 0.0697910487651825,
+    "missing": {
+      "both_organ_unscored": 3,
+      "missing_mismatch": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "肾上腺_结节",
+    "finite_pairs": 134,
+    "MAE": 0.0007525041574306452,
+    "maximum": 0.023300081491470337,
+    "missing": {
+      "both_organ_unscored": 3,
+      "missing_mismatch": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "肾上腺_脂肪瘤",
+    "finite_pairs": 134,
+    "MAE": 0.001351019954864881,
+    "maximum": 0.05129728466272354,
+    "missing": {
+      "both_organ_unscored": 3,
+      "missing_mismatch": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "肾上腺_腺瘤",
+    "finite_pairs": 134,
+    "MAE": 0.0005889069558288068,
+    "maximum": 0.008726069703698158,
+    "missing": {
+      "both_organ_unscored": 3,
+      "missing_mismatch": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "肾上腺_转移瘤",
+    "finite_pairs": 134,
+    "MAE": 0.0005219270898300265,
+    "maximum": 0.010577261447906494,
+    "missing": {
+      "both_organ_unscored": 3,
+      "missing_mismatch": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "肾上腺_钙化",
+    "finite_pairs": 134,
+    "MAE": 0.0007173051265304658,
+    "maximum": 0.039854273200035095,
+    "missing": {
+      "both_organ_unscored": 3,
+      "missing_mismatch": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "胃_壁水肿",
+    "finite_pairs": 137,
+    "MAE": 0.0010618079949958916,
+    "maximum": 0.05924881994724274,
+    "missing": {
+      "missing_mismatch": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "胃_扩张",
+    "finite_pairs": 137,
+    "MAE": 0.000923851702063188,
+    "maximum": 0.04299755394458771,
+    "missing": {
+      "missing_mismatch": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "胃_胃底静脉曲张",
+    "finite_pairs": 137,
+    "MAE": 0.0004827096738791379,
+    "maximum": 0.008168518543243408,
+    "missing": {
+      "missing_mismatch": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "胃_胃溃疡",
+    "finite_pairs": 137,
+    "MAE": 0.00034769981875199907,
+    "maximum": 0.015148652717471123,
+    "missing": {
+      "missing_mismatch": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "胃_胃癌",
+    "finite_pairs": 137,
+    "MAE": 0.00026830071608882644,
+    "maximum": 0.013100305572152138,
+    "missing": {
+      "missing_mismatch": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "胃_间质瘤（gist）",
+    "finite_pairs": 137,
+    "MAE": 0.0006571050791110653,
+    "maximum": 0.02398424595594406,
+    "missing": {
+      "missing_mismatch": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "胆囊_结石",
+    "finite_pairs": 135,
+    "MAE": 0.0006557810978308597,
+    "maximum": 0.04134528338909149,
+    "missing": {
+      "both_organ_unscored": 3
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "胆囊_结节状致密影",
+    "finite_pairs": 135,
+    "MAE": 0.000567314724644853,
+    "maximum": 0.033062852919101715,
+    "missing": {
+      "both_organ_unscored": 3
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "胆囊_胆囊增大",
+    "finite_pairs": 135,
+    "MAE": 0.000630453541547198,
+    "maximum": 0.02520892024040222,
+    "missing": {
+      "both_organ_unscored": 3
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "胆囊_胆囊炎",
+    "finite_pairs": 135,
+    "MAE": 0.0007264006072310385,
+    "maximum": 0.05212321877479553,
+    "missing": {
+      "both_organ_unscored": 3
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "胆囊_胆囊癌",
+    "finite_pairs": 135,
+    "MAE": 0.0007237845230621234,
+    "maximum": 0.05296899378299713,
+    "missing": {
+      "both_organ_unscored": 3
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "胆囊_胆囊腺肌症",
+    "finite_pairs": 135,
+    "MAE": 0.001225681906389245,
+    "maximum": 0.0579691082239151,
+    "missing": {
+      "both_organ_unscored": 3
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "胆囊_胆管壁增厚",
+    "finite_pairs": 135,
+    "MAE": 0.00037957892270275843,
+    "maximum": 0.018930353224277496,
+    "missing": {
+      "both_organ_unscored": 3
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "胆囊_胆管扩张",
+    "finite_pairs": 135,
+    "MAE": 0.0004434101031317065,
+    "maximum": 0.017383597791194916,
+    "missing": {
+      "both_organ_unscored": 3
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "胆囊_胆管炎",
+    "finite_pairs": 135,
+    "MAE": 0.0003900107548192695,
+    "maximum": 0.01245841383934021,
+    "missing": {
+      "both_organ_unscored": 3
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "胆囊_胆管癌",
+    "finite_pairs": 135,
+    "MAE": 0.00034013127749656433,
+    "maximum": 0.012519143521785736,
+    "missing": {
+      "both_organ_unscored": 3
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "胆囊_胆管积气",
+    "finite_pairs": 135,
+    "MAE": 0.0011231222487468686,
+    "maximum": 0.07632812857627869,
+    "missing": {
+      "both_organ_unscored": 3
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "胆囊_胆管结石",
+    "finite_pairs": 135,
+    "MAE": 0.0009093185266936888,
+    "maximum": 0.06399345397949219,
+    "missing": {
+      "both_organ_unscored": 3
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "胆囊_高密度影",
+    "finite_pairs": 135,
+    "MAE": 0.0007733789811566196,
+    "maximum": 0.053723156452178955,
+    "missing": {
+      "both_organ_unscored": 3
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "胆囊_黄色肉芽肿",
+    "finite_pairs": 135,
+    "MAE": 0.00030734258076942447,
+    "maximum": 0.00986570492386818,
+    "missing": {
+      "both_organ_unscored": 3
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "胰腺_低密度影",
+    "finite_pairs": 137,
+    "MAE": 0.0008593631337267639,
+    "maximum": 0.06859099864959717,
+    "missing": {
+      "both_organ_unscored": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "胰腺_囊肿",
+    "finite_pairs": 137,
+    "MAE": 0.0006169384501765679,
+    "maximum": 0.026114702224731445,
+    "missing": {
+      "both_organ_unscored": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "胰腺_围脂肪间隙模糊",
+    "finite_pairs": 137,
+    "MAE": 0.0014330847658315523,
+    "maximum": 0.13930058479309082,
+    "missing": {
+      "both_organ_unscored": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "胰腺_肿瘤或胰腺癌",
+    "finite_pairs": 137,
+    "MAE": 0.0005021305837312434,
+    "maximum": 0.015287458896636963,
+    "missing": {
+      "both_organ_unscored": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "胰腺_胰周假性囊肿",
+    "finite_pairs": 137,
+    "MAE": 0.0011954816957628932,
+    "maximum": 0.10836458206176758,
+    "missing": {
+      "both_organ_unscored": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "胰腺_胰管扩张",
+    "finite_pairs": 137,
+    "MAE": 0.0004492891598900739,
+    "maximum": 0.004730090498924255,
+    "missing": {
+      "both_organ_unscored": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "胰腺_胰管结石",
+    "finite_pairs": 137,
+    "MAE": 0.0006540283325160548,
+    "maximum": 0.01953500509262085,
+    "missing": {
+      "both_organ_unscored": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "胰腺_胰腺炎",
+    "finite_pairs": 137,
+    "MAE": 0.0015773885737022004,
+    "maximum": 0.15121591091156006,
+    "missing": {
+      "both_organ_unscored": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "胰腺_胰腺饱满",
+    "finite_pairs": 137,
+    "MAE": 0.0013704477494113473,
+    "maximum": 0.12945640087127686,
+    "missing": {
+      "both_organ_unscored": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "胰腺_萎缩",
+    "finite_pairs": 137,
+    "MAE": 0.0007674537958529689,
+    "maximum": 0.015347175300121307,
+    "missing": {
+      "both_organ_unscored": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "脾_低密度灶",
+    "finite_pairs": 138,
+    "MAE": 0.0011965668240589075,
+    "maximum": 0.027362409979104996,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "脾_副脾",
+    "finite_pairs": 138,
+    "MAE": 0.0004985137425862468,
+    "maximum": 0.025013504549860954,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "脾_囊肿",
+    "finite_pairs": 138,
+    "MAE": 0.0010488932139064739,
+    "maximum": 0.02930266782641411,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "脾_梗死",
+    "finite_pairs": 138,
+    "MAE": 0.0024462628717773823,
+    "maximum": 0.17598959803581238,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "脾_片状低密度区",
+    "finite_pairs": 138,
+    "MAE": 0.0011947372678559327,
+    "maximum": 0.026059407740831375,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "脾_脾大",
+    "finite_pairs": 138,
+    "MAE": 0.0013765163451392689,
+    "maximum": 0.10278709977865219,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "脾_脾脏淋巴瘤",
+    "finite_pairs": 138,
+    "MAE": 0.0020230481142947533,
+    "maximum": 0.0914277620613575,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "脾_钙化",
+    "finite_pairs": 138,
+    "MAE": 0.000781450744556344,
+    "maximum": 0.038296908140182495,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "膀胱_憩室",
+    "finite_pairs": 89,
+    "MAE": 0.0006376430666953157,
+    "maximum": 0.010119006037712097,
+    "missing": {
+      "both_organ_unscored": 49
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "膀胱_结石",
+    "finite_pairs": 89,
+    "MAE": 0.0006323660975008198,
+    "maximum": 0.01661871373653412,
+    "missing": {
+      "both_organ_unscored": 49
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "膀胱_膀胱壁毛糙",
+    "finite_pairs": 89,
+    "MAE": 0.000480580645916837,
+    "maximum": 0.010187316685914993,
+    "missing": {
+      "both_organ_unscored": 49
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "膀胱_膀胱炎",
+    "finite_pairs": 89,
+    "MAE": 0.00043082223640064177,
+    "maximum": 0.0061402954161167145,
+    "missing": {
+      "both_organ_unscored": 49
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "膀胱_膀胱癌",
+    "finite_pairs": 89,
+    "MAE": 0.0001538129172842489,
+    "maximum": 0.002356112003326416,
+    "missing": {
+      "both_organ_unscored": 49
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "膀胱_软组织密度影",
+    "finite_pairs": 89,
+    "MAE": 0.00017357046919969026,
+    "maximum": 0.0030508041381835938,
+    "missing": {
+      "both_organ_unscored": 49
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "门静脉_增宽",
+    "finite_pairs": 135,
+    "MAE": 0.0008493837141604335,
+    "maximum": 0.06882613152265549,
+    "missing": {
+      "both_organ_unscored": 3
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "门静脉_栓塞",
+    "finite_pairs": 135,
+    "MAE": 0.0005977861423700772,
+    "maximum": 0.03872695565223694,
+    "missing": {
+      "both_organ_unscored": 3
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "门静脉_高压",
+    "finite_pairs": 135,
+    "MAE": 0.0006662347733422562,
+    "maximum": 0.05796804279088974,
+    "missing": {
+      "both_organ_unscored": 3
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "食管_增粗迂曲血管影",
+    "finite_pairs": 136,
+    "MAE": 0.0004673752255792565,
+    "maximum": 0.018722549080848694,
+    "missing": {
+      "both_organ_unscored": 2
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "食管_管壁增厚",
+    "finite_pairs": 136,
+    "MAE": 0.001145043143290369,
+    "maximum": 0.05467088520526886,
+    "missing": {
+      "both_organ_unscored": 2
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "食管_裂孔疝",
+    "finite_pairs": 136,
+    "MAE": 0.0017020818503463968,
+    "maximum": 0.08188080787658691,
+    "missing": {
+      "both_organ_unscored": 2
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "食管_静脉扩张迂曲",
+    "finite_pairs": 136,
+    "MAE": 0.0004646676722640062,
+    "maximum": 0.018536165356636047,
+    "missing": {
+      "both_organ_unscored": 2
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "食管_静脉曲张",
+    "finite_pairs": 136,
+    "MAE": 0.0004589467768228668,
+    "maximum": 0.018124595284461975,
+    "missing": {
+      "both_organ_unscored": 2
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "compact_fp16_crop_v2",
+    "finding": "骶骨_骨炎",
+    "finite_pairs": 117,
+    "MAE": 0.0012157375264602404,
+    "maximum": 0.11123126745223999,
+    "missing": {
+      "both_organ_unscored": 21
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "主动脉_主动脉夹层",
+    "finite_pairs": 138,
+    "MAE": 0.0011108990900380456,
+    "maximum": 0.022767364978790283,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "主动脉_主动脉瘤",
+    "finite_pairs": 138,
+    "MAE": 0.0012325222555048547,
+    "maximum": 0.029172956943511963,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "主动脉_粥样硬化",
+    "finite_pairs": 138,
+    "MAE": 0.0008963642395573897,
+    "maximum": 0.011173665523529053,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "主动脉_钙化",
+    "finite_pairs": 138,
+    "MAE": 0.0008412047721229602,
+    "maximum": 0.009443521499633789,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "十二指肠_占位",
+    "finite_pairs": 136,
+    "MAE": 0.001734883914811208,
+    "maximum": 0.1333675980567932,
+    "missing": {
+      "both_organ_unscored": 2
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "十二指肠_囊袋状突出影",
+    "finite_pairs": 136,
+    "MAE": 0.0007708373322042034,
+    "maximum": 0.017706260085105896,
+    "missing": {
+      "both_organ_unscored": 2
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "十二指肠_憩室",
+    "finite_pairs": 136,
+    "MAE": 0.0007714874022092451,
+    "maximum": 0.01758936047554016,
+    "missing": {
+      "both_organ_unscored": 2
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "十二指肠_梗阻",
+    "finite_pairs": 136,
+    "MAE": 0.0014815946188344456,
+    "maximum": 0.10184735059738159,
+    "missing": {
+      "both_organ_unscored": 2
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "十二指肠_溃疡",
+    "finite_pairs": 136,
+    "MAE": 0.0019093925434657756,
+    "maximum": 0.15350091457366943,
+    "missing": {
+      "both_organ_unscored": 2
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "大肠_克罗恩病",
+    "finite_pairs": 138,
+    "MAE": 0.0006427398078865709,
+    "maximum": 0.025666534900665283,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "大肠_大肠（壁）钙化",
+    "finite_pairs": 138,
+    "MAE": 0.0006692398970514752,
+    "maximum": 0.004640847444534302,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "大肠_急慢性（结）肠炎",
+    "finite_pairs": 138,
+    "MAE": 0.0006369556356440771,
+    "maximum": 0.023028820753097534,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "大肠_浆膜面毛糙",
+    "finite_pairs": 138,
+    "MAE": 0.00017047722729435864,
+    "maximum": 0.003806367516517639,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "大肠_溃疡性结肠炎",
+    "finite_pairs": 138,
+    "MAE": 0.0005212693233287596,
+    "maximum": 0.017623186111450195,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "大肠_直肠癌",
+    "finite_pairs": 138,
+    "MAE": 0.0001518563078497064,
+    "maximum": 0.004835784435272217,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "大肠_积液积气",
+    "finite_pairs": 138,
+    "MAE": 0.0008176180341726412,
+    "maximum": 0.0162675678730011,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "大肠_结肠癌",
+    "finite_pairs": 138,
+    "MAE": 0.00031166604542480513,
+    "maximum": 0.006882242858409882,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "大肠_肠壁毛糙",
+    "finite_pairs": 138,
+    "MAE": 0.00016986372276627716,
+    "maximum": 0.0037575066089630127,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "大肠_肠壁水肿",
+    "finite_pairs": 138,
+    "MAE": 0.0010102930498997803,
+    "maximum": 0.01632004976272583,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "大肠_肠套叠",
+    "finite_pairs": 138,
+    "MAE": 0.0006321757399996716,
+    "maximum": 0.01576334238052368,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "大肠_肠憩室",
+    "finite_pairs": 138,
+    "MAE": 0.0008000783720121219,
+    "maximum": 0.018889009952545166,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "大肠_肠梗阻",
+    "finite_pairs": 138,
+    "MAE": 0.0007456118234414674,
+    "maximum": 0.021447032690048218,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "大肠_肠穿孔",
+    "finite_pairs": 138,
+    "MAE": 0.0009285562454074945,
+    "maximum": 0.019817739725112915,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "大肠_肠道扩张",
+    "finite_pairs": 138,
+    "MAE": 0.000803615960319513,
+    "maximum": 0.016716986894607544,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "大肠_脂肪间隙模糊",
+    "finite_pairs": 138,
+    "MAE": 0.0003224105888005832,
+    "maximum": 0.0077391862869262695,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "大肠_阑尾炎",
+    "finite_pairs": 138,
+    "MAE": 0.0006097568269900006,
+    "maximum": 0.006602287292480469,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "大肠_阑尾粪石",
+    "finite_pairs": 138,
+    "MAE": 0.0005138457307349081,
+    "maximum": 0.0036178231239318848,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "小肠_克罗恩病",
+    "finite_pairs": 138,
+    "MAE": 0.0006640188877244709,
+    "maximum": 0.01365545392036438,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "小肠_套叠",
+    "finite_pairs": 138,
+    "MAE": 0.0009092845333119234,
+    "maximum": 0.019273370504379272,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "小肠_扭转",
+    "finite_pairs": 138,
+    "MAE": 0.0011256090175542656,
+    "maximum": 0.022611871361732483,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "小肠_梗阻",
+    "finite_pairs": 138,
+    "MAE": 0.001025904864207774,
+    "maximum": 0.01945360377430916,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "小肠_淋巴瘤",
+    "finite_pairs": 138,
+    "MAE": 0.0005758763611505644,
+    "maximum": 0.009137466549873352,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "小肠_积气积液",
+    "finite_pairs": 138,
+    "MAE": 0.0010205132572952173,
+    "maximum": 0.03140759468078613,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "小肠_系膜指膜炎",
+    "finite_pairs": 138,
+    "MAE": 0.0008761918010271114,
+    "maximum": 0.030321747064590454,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "小肠_系膜淋巴结肿大",
+    "finite_pairs": 138,
+    "MAE": 0.0005336455744353757,
+    "maximum": 0.0059133172035217285,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "小肠_肠壁增厚",
+    "finite_pairs": 138,
+    "MAE": 0.0007952723375427119,
+    "maximum": 0.011547088623046875,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "小肠_肠管扩张",
+    "finite_pairs": 138,
+    "MAE": 0.0010406109571888826,
+    "maximum": 0.02718053013086319,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "小肠_脂肪瘤",
+    "finite_pairs": 138,
+    "MAE": 0.002208068882506611,
+    "maximum": 0.15188714861869812,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "小肠_间质瘤（胃肠间质瘤-gist）",
+    "finite_pairs": 138,
+    "MAE": 0.0008886810628346343,
+    "maximum": 0.013826044276356697,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "小肠_（急慢性）小肠炎",
+    "finite_pairs": 138,
+    "MAE": 0.0006765923884602777,
+    "maximum": 0.012599319219589233,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "心脏_心包积液",
+    "finite_pairs": 136,
+    "MAE": 0.0007683201829957612,
+    "maximum": 0.012442827224731445,
+    "missing": {
+      "both_organ_unscored": 2
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "心脏_心影（脏）增大",
+    "finite_pairs": 136,
+    "MAE": 0.00137432395165567,
+    "maximum": 0.02042481303215027,
+    "missing": {
+      "both_organ_unscored": 2
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "肋骨_转移瘤（乳腺癌 骨转移）",
+    "finite_pairs": 138,
+    "MAE": 0.0011852417525875828,
+    "maximum": 0.0655454695224762,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "肋骨_骨折",
+    "finite_pairs": 138,
+    "MAE": 0.0011423703121102374,
+    "maximum": 0.045836687088012695,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "肋骨_骨质破坏",
+    "finite_pairs": 138,
+    "MAE": 0.00126406861860575,
+    "maximum": 0.05013078451156616,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "肝_低密度影",
+    "finite_pairs": 138,
+    "MAE": 0.0005207513283982037,
+    "maximum": 0.008357670158147812,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "肝_格林森鞘积液",
+    "finite_pairs": 138,
+    "MAE": 0.0005296515480659909,
+    "maximum": 0.018738914281129837,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "肝_比例失调",
+    "finite_pairs": 138,
+    "MAE": 0.00027577587773692727,
+    "maximum": 0.00658191554248333,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "肝_波浪状改变",
+    "finite_pairs": 138,
+    "MAE": 0.0001692381083557848,
+    "maximum": 0.004359185695648193,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "肝_硬化",
+    "finite_pairs": 138,
+    "MAE": 0.00019404915078864534,
+    "maximum": 0.004005610942840576,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "肝_结节状强化",
+    "finite_pairs": 138,
+    "MAE": 0.000619420967953941,
+    "maximum": 0.007302343845367432,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "肝_肝内胆管扩张",
+    "finite_pairs": 138,
+    "MAE": 0.000541350140891787,
+    "maximum": 0.01301264762878418,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "肝_肝内胆管结石",
+    "finite_pairs": 138,
+    "MAE": 0.0005999130685696414,
+    "maximum": 0.009226232767105103,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "肝_肝内钙化灶",
+    "finite_pairs": 138,
+    "MAE": 0.0005389072601615951,
+    "maximum": 0.012625455856323242,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "肝_肝囊肿",
+    "finite_pairs": 138,
+    "MAE": 0.0004802453614251715,
+    "maximum": 0.011313434690237045,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "肝_肝细胞癌",
+    "finite_pairs": 138,
+    "MAE": 0.0002174529024482647,
+    "maximum": 0.006528288125991821,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "肝_肝胆管内高密度影",
+    "finite_pairs": 138,
+    "MAE": 0.0006320262368865809,
+    "maximum": 0.01108318567276001,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "肝_肝血管瘤",
+    "finite_pairs": 138,
+    "MAE": 0.0009010607339576751,
+    "maximum": 0.009230345487594604,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "肝_胆管癌",
+    "finite_pairs": 138,
+    "MAE": 0.0004605499747317415,
+    "maximum": 0.01345902681350708,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "肝_脂肪肝",
+    "finite_pairs": 138,
+    "MAE": 0.0012688204798800195,
+    "maximum": 0.021126866340637207,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "肝_脓肿",
+    "finite_pairs": 138,
+    "MAE": 0.0006405145518922085,
+    "maximum": 0.011346995830535889,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "肝_转移瘤",
+    "finite_pairs": 138,
+    "MAE": 0.0006326148705093015,
+    "maximum": 0.007475465536117554,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "肝_边缘不规则",
+    "finite_pairs": 138,
+    "MAE": 0.00020779639920004664,
+    "maximum": 0.004688769578933716,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "肺_斑片影",
+    "finite_pairs": 138,
+    "MAE": 0.00031896685992462045,
+    "maximum": 0.0030654966831207275,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "肺_气胸",
+    "finite_pairs": 138,
+    "MAE": 0.00031139773816086245,
+    "maximum": 0.005220621824264526,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "肺_结节",
+    "finite_pairs": 138,
+    "MAE": 0.0003150871607299516,
+    "maximum": 0.0033722221851348877,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "肺_肺占位",
+    "finite_pairs": 138,
+    "MAE": 0.0002934866250776078,
+    "maximum": 0.0030659139156341553,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "肺_肺萎陷",
+    "finite_pairs": 138,
+    "MAE": 0.0003256298520642778,
+    "maximum": 0.007470130920410156,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "肺_胸腔积液",
+    "finite_pairs": 138,
+    "MAE": 0.00025946002764006454,
+    "maximum": 0.0064432621002197266,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "肺_膨胀不全",
+    "finite_pairs": 138,
+    "MAE": 0.0003274302639445101,
+    "maximum": 0.007489025592803955,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "肺_转移瘤",
+    "finite_pairs": 138,
+    "MAE": 0.00031844027335350603,
+    "maximum": 0.0050786882638931274,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "肺_钙化灶",
+    "finite_pairs": 138,
+    "MAE": 0.00021819817745869142,
+    "maximum": 0.002876877784729004,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "肺_高密度影",
+    "finite_pairs": 138,
+    "MAE": 0.00029374138735558677,
+    "maximum": 0.0035957247018814087,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "肾_低密度影",
+    "finite_pairs": 138,
+    "MAE": 0.000746722026910309,
+    "maximum": 0.01071387529373169,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "肾_囊肿",
+    "finite_pairs": 138,
+    "MAE": 0.0007992776117517033,
+    "maximum": 0.010744161903858185,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "肾_多囊肾",
+    "finite_pairs": 138,
+    "MAE": 0.0008074159403264091,
+    "maximum": 0.03223836421966553,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "肾_实质变薄",
+    "finite_pairs": 138,
+    "MAE": 0.0005238480099132689,
+    "maximum": 0.00708017498254776,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "肾_无强化囊性灶",
+    "finite_pairs": 138,
+    "MAE": 0.0008786268518778725,
+    "maximum": 0.025849536061286926,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "肾_肾动脉瘤",
+    "finite_pairs": 138,
+    "MAE": 0.0009442614129933434,
+    "maximum": 0.013559684157371521,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "肾_肾盂扩张",
+    "finite_pairs": 138,
+    "MAE": 0.0007137088788389835,
+    "maximum": 0.01732926070690155,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "肾_肾盂癌",
+    "finite_pairs": 138,
+    "MAE": 0.0005851498899046683,
+    "maximum": 0.006712198257446289,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "肾_肾盂积水",
+    "finite_pairs": 138,
+    "MAE": 0.0006881650242839764,
+    "maximum": 0.015002354979515076,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "肾_肾细胞癌（透明细胞癌）",
+    "finite_pairs": 138,
+    "MAE": 0.0007766448336727648,
+    "maximum": 0.01105499267578125,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "肾_肾萎缩",
+    "finite_pairs": 138,
+    "MAE": 0.0006143327561100401,
+    "maximum": 0.014581993222236633,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "肾_肾血管平滑肌脂肪瘤",
+    "finite_pairs": 138,
+    "MAE": 0.0009305863167737962,
+    "maximum": 0.013248533010482788,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "肾_肾（盂）结石",
+    "finite_pairs": 138,
+    "MAE": 0.0007533841083953292,
+    "maximum": 0.012861229479312897,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "肾_高密度影",
+    "finite_pairs": 138,
+    "MAE": 0.0007689491216349753,
+    "maximum": 0.014447785913944244,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "肾上腺_增生",
+    "finite_pairs": 134,
+    "MAE": 0.0022398865462016702,
+    "maximum": 0.11233559250831604,
+    "missing": {
+      "both_organ_unscored": 4
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "肾上腺_结节",
+    "finite_pairs": 134,
+    "MAE": 0.003664042967468945,
+    "maximum": 0.2821896970272064,
+    "missing": {
+      "both_organ_unscored": 4
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "肾上腺_脂肪瘤",
+    "finite_pairs": 134,
+    "MAE": 0.0024734817370563856,
+    "maximum": 0.12083587050437927,
+    "missing": {
+      "both_organ_unscored": 4
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "肾上腺_腺瘤",
+    "finite_pairs": 134,
+    "MAE": 0.005141688983387022,
+    "maximum": 0.49117444455623627,
+    "missing": {
+      "both_organ_unscored": 4
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "肾上腺_转移瘤",
+    "finite_pairs": 134,
+    "MAE": 0.0040192576855031855,
+    "maximum": 0.38072405755519867,
+    "missing": {
+      "both_organ_unscored": 4
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "肾上腺_钙化",
+    "finite_pairs": 134,
+    "MAE": 0.0035659163258969784,
+    "maximum": 0.16610825061798096,
+    "missing": {
+      "both_organ_unscored": 4
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "胃_壁水肿",
+    "finite_pairs": 137,
+    "MAE": 0.0016271675168706553,
+    "maximum": 0.07238572835922241,
+    "missing": {
+      "missing_mismatch": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "胃_扩张",
+    "finite_pairs": 137,
+    "MAE": 0.0009725353320258378,
+    "maximum": 0.043323904275894165,
+    "missing": {
+      "missing_mismatch": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "胃_胃底静脉曲张",
+    "finite_pairs": 137,
+    "MAE": 0.0011914879131219248,
+    "maximum": 0.08055195212364197,
+    "missing": {
+      "missing_mismatch": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "胃_胃溃疡",
+    "finite_pairs": 137,
+    "MAE": 0.0003526518401778201,
+    "maximum": 0.00539839081466198,
+    "missing": {
+      "missing_mismatch": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "胃_胃癌",
+    "finite_pairs": 137,
+    "MAE": 0.0003187118614785863,
+    "maximum": 0.007380358874797821,
+    "missing": {
+      "missing_mismatch": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "胃_间质瘤（gist）",
+    "finite_pairs": 137,
+    "MAE": 0.000998015803570458,
+    "maximum": 0.035614773631095886,
+    "missing": {
+      "missing_mismatch": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "胆囊_结石",
+    "finite_pairs": 135,
+    "MAE": 0.0017384962860011945,
+    "maximum": 0.13996949791908264,
+    "missing": {
+      "both_organ_unscored": 3
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "胆囊_结节状致密影",
+    "finite_pairs": 135,
+    "MAE": 0.0016413805200028474,
+    "maximum": 0.1401546150445938,
+    "missing": {
+      "both_organ_unscored": 3
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "胆囊_胆囊增大",
+    "finite_pairs": 135,
+    "MAE": 0.0017056129730513526,
+    "maximum": 0.12591423094272614,
+    "missing": {
+      "both_organ_unscored": 3
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "胆囊_胆囊炎",
+    "finite_pairs": 135,
+    "MAE": 0.0026169974124059083,
+    "maximum": 0.23132483661174774,
+    "missing": {
+      "both_organ_unscored": 3
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "胆囊_胆囊癌",
+    "finite_pairs": 135,
+    "MAE": 0.0017222227507402378,
+    "maximum": 0.14605587720870972,
+    "missing": {
+      "both_organ_unscored": 3
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "胆囊_胆囊腺肌症",
+    "finite_pairs": 135,
+    "MAE": 0.0010410563390770996,
+    "maximum": 0.031000413931906223,
+    "missing": {
+      "both_organ_unscored": 3
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "胆囊_胆管壁增厚",
+    "finite_pairs": 135,
+    "MAE": 0.0015004084176056226,
+    "maximum": 0.14344854652881622,
+    "missing": {
+      "both_organ_unscored": 3
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "胆囊_胆管扩张",
+    "finite_pairs": 135,
+    "MAE": 0.0011109754212493836,
+    "maximum": 0.08041950315237045,
+    "missing": {
+      "both_organ_unscored": 3
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "胆囊_胆管炎",
+    "finite_pairs": 135,
+    "MAE": 0.0018037014069570297,
+    "maximum": 0.1720191091299057,
+    "missing": {
+      "both_organ_unscored": 3
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "胆囊_胆管癌",
+    "finite_pairs": 135,
+    "MAE": 0.0008811022242837309,
+    "maximum": 0.045761626213788986,
+    "missing": {
+      "both_organ_unscored": 3
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "胆囊_胆管积气",
+    "finite_pairs": 135,
+    "MAE": 0.0013470584388684344,
+    "maximum": 0.03723573684692383,
+    "missing": {
+      "both_organ_unscored": 3
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "胆囊_胆管结石",
+    "finite_pairs": 135,
+    "MAE": 0.002134199332795106,
+    "maximum": 0.11877556145191193,
+    "missing": {
+      "both_organ_unscored": 3
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "胆囊_高密度影",
+    "finite_pairs": 135,
+    "MAE": 0.0017893068475165852,
+    "maximum": 0.13747601211071014,
+    "missing": {
+      "both_organ_unscored": 3
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "胆囊_黄色肉芽肿",
+    "finite_pairs": 135,
+    "MAE": 0.0009503063187164824,
+    "maximum": 0.0660424493253231,
+    "missing": {
+      "both_organ_unscored": 3
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "胰腺_低密度影",
+    "finite_pairs": 137,
+    "MAE": 0.0011851148302564874,
+    "maximum": 0.06437122821807861,
+    "missing": {
+      "both_organ_unscored": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "胰腺_囊肿",
+    "finite_pairs": 137,
+    "MAE": 0.0007353066942606964,
+    "maximum": 0.010285329073667526,
+    "missing": {
+      "both_organ_unscored": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "胰腺_围脂肪间隙模糊",
+    "finite_pairs": 137,
+    "MAE": 0.00118254606053743,
+    "maximum": 0.05743548274040222,
+    "missing": {
+      "both_organ_unscored": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "胰腺_肿瘤或胰腺癌",
+    "finite_pairs": 137,
+    "MAE": 0.001574379395739002,
+    "maximum": 0.1323963850736618,
+    "missing": {
+      "both_organ_unscored": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "胰腺_胰周假性囊肿",
+    "finite_pairs": 137,
+    "MAE": 0.0015488943463955313,
+    "maximum": 0.10009969770908356,
+    "missing": {
+      "both_organ_unscored": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "胰腺_胰管扩张",
+    "finite_pairs": 137,
+    "MAE": 0.000789228201347546,
+    "maximum": 0.03154867887496948,
+    "missing": {
+      "both_organ_unscored": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "胰腺_胰管结石",
+    "finite_pairs": 137,
+    "MAE": 0.001768925515501454,
+    "maximum": 0.1301451325416565,
+    "missing": {
+      "both_organ_unscored": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "胰腺_胰腺炎",
+    "finite_pairs": 137,
+    "MAE": 0.0011756518666834713,
+    "maximum": 0.04967185854911804,
+    "missing": {
+      "both_organ_unscored": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "胰腺_胰腺饱满",
+    "finite_pairs": 137,
+    "MAE": 0.0012029729353138213,
+    "maximum": 0.061614446341991425,
+    "missing": {
+      "both_organ_unscored": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "胰腺_萎缩",
+    "finite_pairs": 137,
+    "MAE": 0.002526923348739689,
+    "maximum": 0.19206009060144424,
+    "missing": {
+      "both_organ_unscored": 1
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "脾_低密度灶",
+    "finite_pairs": 138,
+    "MAE": 0.0007058158263807063,
+    "maximum": 0.020107604563236237,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "脾_副脾",
+    "finite_pairs": 138,
+    "MAE": 0.00044630437691196585,
+    "maximum": 0.01087639108300209,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "脾_囊肿",
+    "finite_pairs": 138,
+    "MAE": 0.0005686258158201109,
+    "maximum": 0.017150409519672394,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "脾_梗死",
+    "finite_pairs": 138,
+    "MAE": 0.0008914140074183166,
+    "maximum": 0.03090542182326317,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "脾_片状低密度区",
+    "finite_pairs": 138,
+    "MAE": 0.0007032793693487411,
+    "maximum": 0.02011708728969097,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "脾_脾大",
+    "finite_pairs": 138,
+    "MAE": 0.0005826297546382589,
+    "maximum": 0.026586875319480896,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "脾_脾脏淋巴瘤",
+    "finite_pairs": 138,
+    "MAE": 0.001169726773472233,
+    "maximum": 0.07453396916389465,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "脾_钙化",
+    "finite_pairs": 138,
+    "MAE": 0.00042537645355838794,
+    "maximum": 0.011831553652882576,
+    "missing": {}
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "膀胱_憩室",
+    "finite_pairs": 89,
+    "MAE": 0.0009670182120766533,
+    "maximum": 0.011185020208358765,
+    "missing": {
+      "both_organ_unscored": 49
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "膀胱_结石",
+    "finite_pairs": 89,
+    "MAE": 0.0011518634541818264,
+    "maximum": 0.022581472992897034,
+    "missing": {
+      "both_organ_unscored": 49
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "膀胱_膀胱壁毛糙",
+    "finite_pairs": 89,
+    "MAE": 0.0011157040756321355,
+    "maximum": 0.05205641686916351,
+    "missing": {
+      "both_organ_unscored": 49
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "膀胱_膀胱炎",
+    "finite_pairs": 89,
+    "MAE": 0.0011103237100112975,
+    "maximum": 0.05002012848854065,
+    "missing": {
+      "both_organ_unscored": 49
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "膀胱_膀胱癌",
+    "finite_pairs": 89,
+    "MAE": 0.0003387065358418092,
+    "maximum": 0.00765913724899292,
+    "missing": {
+      "both_organ_unscored": 49
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "膀胱_软组织密度影",
+    "finite_pairs": 89,
+    "MAE": 0.00033751075035693605,
+    "maximum": 0.006962001323699951,
+    "missing": {
+      "both_organ_unscored": 49
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "门静脉_增宽",
+    "finite_pairs": 135,
+    "MAE": 0.0013612838134307553,
+    "maximum": 0.07258676737546921,
+    "missing": {
+      "both_organ_unscored": 3
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "门静脉_栓塞",
+    "finite_pairs": 135,
+    "MAE": 0.0009013992561786263,
+    "maximum": 0.04565635323524475,
+    "missing": {
+      "both_organ_unscored": 3
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "门静脉_高压",
+    "finite_pairs": 135,
+    "MAE": 0.0010478011177231868,
+    "maximum": 0.061594270169734955,
+    "missing": {
+      "both_organ_unscored": 3
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "食管_增粗迂曲血管影",
+    "finite_pairs": 136,
+    "MAE": 0.0019044472719542682,
+    "maximum": 0.10923264920711517,
+    "missing": {
+      "both_organ_unscored": 2
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "食管_管壁增厚",
+    "finite_pairs": 136,
+    "MAE": 0.0013644612592864124,
+    "maximum": 0.037498652935028076,
+    "missing": {
+      "both_organ_unscored": 2
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "食管_裂孔疝",
+    "finite_pairs": 136,
+    "MAE": 0.0030242744148434963,
+    "maximum": 0.12259745597839355,
+    "missing": {
+      "both_organ_unscored": 2
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "食管_静脉扩张迂曲",
+    "finite_pairs": 136,
+    "MAE": 0.0019145186319399405,
+    "maximum": 0.11039012670516968,
+    "missing": {
+      "both_organ_unscored": 2
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "食管_静脉曲张",
+    "finite_pairs": 136,
+    "MAE": 0.0019181205973248271,
+    "maximum": 0.11126108467578888,
+    "missing": {
+      "both_organ_unscored": 2
+    }
+  },
+  {
+    "scope": "current_runtime_four_common_cases",
+    "reference": "gpu_fp32_cpu_stitch",
+    "candidate": "trt_fp16_crop_v2",
+    "finding": "骶骨_骨炎",
+    "finite_pairs": 117,
+    "MAE": 0.0005014264780996193,
+    "maximum": 0.0046923160552978516,
+    "missing": {
+      "both_organ_unscored": 21
+    }
+  }
+]

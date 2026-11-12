@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+assets/
+outputs/
+private_auth/
+.env
+*.nii
+*.nii.gz
+*.npz
+*.npy
+*.pth
+*.plan
+*.onnx

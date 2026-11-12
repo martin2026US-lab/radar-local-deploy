@@ -1,0 +1,36 @@
+{
+  "python_syntax": true,
+  "JSON_parsing": true,
+  "all4_profile_assets_hash_verified": [
+    {
+      "profile": "fp32",
+      "assets_verified": true,
+      "model_execution": false
+    },
+    {
+      "profile": "fp16",
+      "assets_verified": true,
+      "model_execution": false
+    },
+    {
+      "profile": "compact-fp16",
+      "assets_verified": true,
+      "model_execution": false
+    },
+    {
+      "profile": "trt-fp16",
+      "assets_verified": true,
+      "model_execution": false
+    }
+  ],
+  "original_forward_builder_guard_AST_equal": true,
+  "TensorRT_active_methods_AST_equal": true,
+  "streamed_workspace_sources_byte_identical": true,
+  "vendor_sources_byte_identical": true,
+  "all_asset_hashes_verified": true,
+  "runtime_import_and_CPU_stitch_selfcheck_passed": true,
+  "CUDA_initialized": false,
+  "new_model_inferences": 0,
+  "portable_wrapper_200case_rerun": false,
+  "no_patient_data_or_credentials_in_staging": true
+}

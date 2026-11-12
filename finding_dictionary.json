@@ -1,0 +1,732 @@
+[
+  {
+    "index": 0,
+    "key": "主动脉_主动脉夹层",
+    "display": "主动脉_主动脉夹层 (Aorta_Aortic dissection)"
+  },
+  {
+    "index": 1,
+    "key": "主动脉_主动脉瘤",
+    "display": "主动脉_主动脉瘤 (Aorta_Aortic aneurysm)"
+  },
+  {
+    "index": 2,
+    "key": "主动脉_粥样硬化",
+    "display": "主动脉_粥样硬化 (Aorta_Atherosclerosis)"
+  },
+  {
+    "index": 3,
+    "key": "主动脉_钙化",
+    "display": "主动脉_钙化 (Aorta_Calcification)"
+  },
+  {
+    "index": 4,
+    "key": "十二指肠_占位",
+    "display": "十二指肠_占位 (Duodenum_Mass)"
+  },
+  {
+    "index": 5,
+    "key": "十二指肠_囊袋状突出影",
+    "display": "十二指肠_囊袋状突出影 (Duodenum_Saccular outpouching)"
+  },
+  {
+    "index": 6,
+    "key": "十二指肠_憩室",
+    "display": "十二指肠_憩室 (Duodenum_Diverticulum)"
+  },
+  {
+    "index": 7,
+    "key": "十二指肠_梗阻",
+    "display": "十二指肠_梗阻 (Duodenum_Obstruction)"
+  },
+  {
+    "index": 8,
+    "key": "十二指肠_溃疡",
+    "display": "十二指肠_溃疡 (Duodenum_Ulcer)"
+  },
+  {
+    "index": 9,
+    "key": "大肠_克罗恩病",
+    "display": "大肠_克罗恩病 (Large bowel_Crohn's disease)"
+  },
+  {
+    "index": 10,
+    "key": "大肠_大肠（壁）钙化",
+    "display": "大肠_大肠（壁）钙化 (Large bowel_Mural calcification)"
+  },
+  {
+    "index": 11,
+    "key": "大肠_急慢性（结）肠炎",
+    "display": "大肠_急慢性（结）肠炎 (Large bowel_Colitis)"
+  },
+  {
+    "index": 12,
+    "key": "大肠_浆膜面毛糙",
+    "display": "大肠_浆膜面毛糙 (Large bowel_Serosal surface irregularity)"
+  },
+  {
+    "index": 13,
+    "key": "大肠_溃疡性结肠炎",
+    "display": "大肠_溃疡性结肠炎 (Large bowel_Ulcerative colitis)"
+  },
+  {
+    "index": 14,
+    "key": "大肠_直肠癌",
+    "display": "大肠_直肠癌 (Large bowel_Rectal cancer)"
+  },
+  {
+    "index": 15,
+    "key": "大肠_积液积气",
+    "display": "大肠_积液积气 (Large bowel_Gas and fluid accumulation)"
+  },
+  {
+    "index": 16,
+    "key": "大肠_结肠癌",
+    "display": "大肠_结肠癌 (Large bowel_Colon cancer)"
+  },
+  {
+    "index": 17,
+    "key": "大肠_肠壁毛糙",
+    "display": "大肠_肠壁毛糙 (Large bowel_Wall irregularity)"
+  },
+  {
+    "index": 18,
+    "key": "大肠_肠壁水肿",
+    "display": "大肠_肠壁水肿 (Large bowel_Wall edema)"
+  },
+  {
+    "index": 19,
+    "key": "大肠_肠套叠",
+    "display": "大肠_肠套叠 (Large bowel_Intussusception)"
+  },
+  {
+    "index": 20,
+    "key": "大肠_肠憩室",
+    "display": "大肠_肠憩室 (Large bowel_Diverticulum)"
+  },
+  {
+    "index": 21,
+    "key": "大肠_肠梗阻",
+    "display": "大肠_肠梗阻 (Large bowel_Obstruction)"
+  },
+  {
+    "index": 22,
+    "key": "大肠_肠穿孔",
+    "display": "大肠_肠穿孔 (Large bowel_Perforation)"
+  },
+  {
+    "index": 23,
+    "key": "大肠_肠道扩张",
+    "display": "大肠_肠道扩张 (Large bowel_Dilatation)"
+  },
+  {
+    "index": 24,
+    "key": "大肠_脂肪间隙模糊",
+    "display": "大肠_脂肪间隙模糊 (Large bowel_Blurring of fat planes)"
+  },
+  {
+    "index": 25,
+    "key": "大肠_阑尾炎",
+    "display": "大肠_阑尾炎 (Large bowel_Appendicitis)"
+  },
+  {
+    "index": 26,
+    "key": "大肠_阑尾粪石",
+    "display": "大肠_阑尾粪石 (Large bowel_Appendicolith)"
+  },
+  {
+    "index": 27,
+    "key": "小肠_克罗恩病",
+    "display": "小肠_克罗恩病 (Small bowel_Crohn's disease)"
+  },
+  {
+    "index": 28,
+    "key": "小肠_套叠",
+    "display": "小肠_套叠 (Small bowel_Intussusception)"
+  },
+  {
+    "index": 29,
+    "key": "小肠_扭转",
+    "display": "小肠_扭转 (Small bowel_Volvulus)"
+  },
+  {
+    "index": 30,
+    "key": "小肠_梗阻",
+    "display": "小肠_梗阻 (Small bowel_Obstruction)"
+  },
+  {
+    "index": 31,
+    "key": "小肠_淋巴瘤",
+    "display": "小肠_淋巴瘤 (Small bowel_Lymphoma)"
+  },
+  {
+    "index": 32,
+    "key": "小肠_积气积液",
+    "display": "小肠_积气积液 (Small bowel_Gas and fluid accumulation)"
+  },
+  {
+    "index": 33,
+    "key": "小肠_系膜指膜炎",
+    "display": "小肠_系膜指膜炎 (Small bowel_Mesenteric panniculitis)"
+  },
+  {
+    "index": 34,
+    "key": "小肠_系膜淋巴结肿大",
+    "display": "小肠_系膜淋巴结肿大 (Small bowel_Mesenteric lymphadenopathy)"
+  },
+  {
+    "index": 35,
+    "key": "小肠_肠壁增厚",
+    "display": "小肠_肠壁增厚 (Small bowel_Wall thickening)"
+  },
+  {
+    "index": 36,
+    "key": "小肠_肠管扩张",
+    "display": "小肠_肠管扩张 (Small bowel_Dilatation)"
+  },
+  {
+    "index": 37,
+    "key": "小肠_脂肪瘤",
+    "display": "小肠_脂肪瘤 (Small bowel_Lipoma)"
+  },
+  {
+    "index": 38,
+    "key": "小肠_间质瘤（胃肠间质瘤-gist）",
+    "display": "小肠_间质瘤（胃肠间质瘤-gist） (Small bowel_Gastrointestinal stromal tumor)"
+  },
+  {
+    "index": 39,
+    "key": "小肠_（急慢性）小肠炎",
+    "display": "小肠_（急慢性）小肠炎 (Small bowel_Enteritis)"
+  },
+  {
+    "index": 40,
+    "key": "心脏_心包积液",
+    "display": "心脏_心包积液 (Heart_Pericardial effusion)"
+  },
+  {
+    "index": 41,
+    "key": "心脏_心影（脏）增大",
+    "display": "心脏_心影（脏）增大 (Heart_Cardiomegaly)"
+  },
+  {
+    "index": 42,
+    "key": "肋骨_转移瘤（乳腺癌 骨转移）",
+    "display": "肋骨_转移瘤（乳腺癌 骨转移） (Rib_Metastasis)"
+  },
+  {
+    "index": 43,
+    "key": "肋骨_骨折",
+    "display": "肋骨_骨折 (Rib_Fracture)"
+  },
+  {
+    "index": 44,
+    "key": "肋骨_骨质破坏",
+    "display": "肋骨_骨质破坏 (Rib_Bone destruction)"
+  },
+  {
+    "index": 45,
+    "key": "肝_低密度影",
+    "display": "肝_低密度影 (Liver_Hypoattenuating lesion)"
+  },
+  {
+    "index": 46,
+    "key": "肝_格林森鞘积液",
+    "display": "肝_格林森鞘积液 (Liver_Periportal edema)"
+  },
+  {
+    "index": 47,
+    "key": "肝_比例失调",
+    "display": "肝_比例失调 (Liver_Lobar volume disproportion)"
+  },
+  {
+    "index": 48,
+    "key": "肝_波浪状改变",
+    "display": "肝_波浪状改变 (Liver_Undulating contour)"
+  },
+  {
+    "index": 49,
+    "key": "肝_硬化",
+    "display": "肝_硬化 (Liver_Cirrhosis)"
+  },
+  {
+    "index": 50,
+    "key": "肝_结节状强化",
+    "display": "肝_结节状强化 (Liver_Nodular enhancement)"
+  },
+  {
+    "index": 51,
+    "key": "肝_肝内胆管扩张",
+    "display": "肝_肝内胆管扩张 (Liver_Intrahepatic bile duct dilatation)"
+  },
+  {
+    "index": 52,
+    "key": "肝_肝内胆管结石",
+    "display": "肝_肝内胆管结石 (Liver_Hepatolithiasis)"
+  },
+  {
+    "index": 53,
+    "key": "肝_肝内钙化灶",
+    "display": "肝_肝内钙化灶 (Liver_Intrahepatic calcification)"
+  },
+  {
+    "index": 54,
+    "key": "肝_肝囊肿",
+    "display": "肝_肝囊肿 (Liver_Cyst)"
+  },
+  {
+    "index": 55,
+    "key": "肝_肝细胞癌",
+    "display": "肝_肝细胞癌 (Liver_Hepatocellular carcinoma)"
+  },
+  {
+    "index": 56,
+    "key": "肝_肝胆管内高密度影",
+    "display": "肝_肝胆管内高密度影 (Liver_Hyperattenuating lesion in intrahepatic bile ducts)"
+  },
+  {
+    "index": 57,
+    "key": "肝_肝血管瘤",
+    "display": "肝_肝血管瘤 (Liver_Hemangioma)"
+  },
+  {
+    "index": 58,
+    "key": "肝_胆管癌",
+    "display": "肝_胆管癌 (Liver_Intrahepatic cholangiocarcinoma)"
+  },
+  {
+    "index": 59,
+    "key": "肝_脂肪肝",
+    "display": "肝_脂肪肝 (Liver_Steatotic liver disease)"
+  },
+  {
+    "index": 60,
+    "key": "肝_脓肿",
+    "display": "肝_脓肿 (Liver_Abscess)"
+  },
+  {
+    "index": 61,
+    "key": "肝_转移瘤",
+    "display": "肝_转移瘤 (Liver_Metastasis)"
+  },
+  {
+    "index": 62,
+    "key": "肝_边缘不规则",
+    "display": "肝_边缘不规则 (Liver_Irregular margin)"
+  },
+  {
+    "index": 63,
+    "key": "肺_斑片影",
+    "display": "肺_斑片影 (Lung_Patchy opacity)"
+  },
+  {
+    "index": 64,
+    "key": "肺_气胸",
+    "display": "肺_气胸 (Lung_Pneumothorax)"
+  },
+  {
+    "index": 65,
+    "key": "肺_结节",
+    "display": "肺_结节 (Lung_Nodule)"
+  },
+  {
+    "index": 66,
+    "key": "肺_肺占位",
+    "display": "肺_肺占位 (Lung_Mass)"
+  },
+  {
+    "index": 67,
+    "key": "肺_肺萎陷",
+    "display": "肺_肺萎陷 (Lung_Pulmonary collapse)"
+  },
+  {
+    "index": 68,
+    "key": "肺_胸腔积液",
+    "display": "肺_胸腔积液 (Lung_Pleural effusion)"
+  },
+  {
+    "index": 69,
+    "key": "肺_膨胀不全",
+    "display": "肺_膨胀不全 (Lung_Atelectasis)"
+  },
+  {
+    "index": 70,
+    "key": "肺_转移瘤",
+    "display": "肺_转移瘤 (Lung_Metastasis)"
+  },
+  {
+    "index": 71,
+    "key": "肺_钙化灶",
+    "display": "肺_钙化灶 (Lung_Calcification)"
+  },
+  {
+    "index": 72,
+    "key": "肺_高密度影",
+    "display": "肺_高密度影 (Lung_Hyperattenuating opacity)"
+  },
+  {
+    "index": 73,
+    "key": "肾_低密度影",
+    "display": "肾_低密度影 (Kidney_Hypoattenuating lesion)"
+  },
+  {
+    "index": 74,
+    "key": "肾_囊肿",
+    "display": "肾_囊肿 (Kidney_Cyst)"
+  },
+  {
+    "index": 75,
+    "key": "肾_多囊肾",
+    "display": "肾_多囊肾 (Kidney_Polycystic kidney disease)"
+  },
+  {
+    "index": 76,
+    "key": "肾_实质变薄",
+    "display": "肾_实质变薄 (Kidney_Parenchymal thinning)"
+  },
+  {
+    "index": 77,
+    "key": "肾_无强化囊性灶",
+    "display": "肾_无强化囊性灶 (Kidney_Nonenhancing cystic lesion)"
+  },
+  {
+    "index": 78,
+    "key": "肾_肾动脉瘤",
+    "display": "肾_肾动脉瘤 (Kidney_Renal artery aneurysm)"
+  },
+  {
+    "index": 79,
+    "key": "肾_肾盂扩张",
+    "display": "肾_肾盂扩张 (Kidney_Renal pelvic dilatation)"
+  },
+  {
+    "index": 80,
+    "key": "肾_肾盂癌",
+    "display": "肾_肾盂癌 (Kidney_Renal pelvic cancer)"
+  },
+  {
+    "index": 81,
+    "key": "肾_肾盂积水",
+    "display": "肾_肾盂积水 (Kidney_Hydronephrosis)"
+  },
+  {
+    "index": 82,
+    "key": "肾_肾细胞癌（透明细胞癌）",
+    "display": "肾_肾细胞癌（透明细胞癌） (Kidney_Renal cell carcinoma)"
+  },
+  {
+    "index": 83,
+    "key": "肾_肾萎缩",
+    "display": "肾_肾萎缩 (Kidney_Atrophy)"
+  },
+  {
+    "index": 84,
+    "key": "肾_肾血管平滑肌脂肪瘤",
+    "display": "肾_肾血管平滑肌脂肪瘤 (Kidney_Angiomyolipoma)"
+  },
+  {
+    "index": 85,
+    "key": "肾_肾（盂）结石",
+    "display": "肾_肾（盂）结石 (Kidney_Nephrolithiasis)"
+  },
+  {
+    "index": 86,
+    "key": "肾_高密度影",
+    "display": "肾_高密度影 (Kidney_Hyperattenuating lesion)"
+  },
+  {
+    "index": 87,
+    "key": "肾上腺_增生",
+    "display": "肾上腺_增生 (Adrenal gland_Hyperplasia)"
+  },
+  {
+    "index": 88,
+    "key": "肾上腺_结节",
+    "display": "肾上腺_结节 (Adrenal gland_Nodule)"
+  },
+  {
+    "index": 89,
+    "key": "肾上腺_脂肪瘤",
+    "display": "肾上腺_脂肪瘤 (Adrenal gland_Lipoma)"
+  },
+  {
+    "index": 90,
+    "key": "肾上腺_腺瘤",
+    "display": "肾上腺_腺瘤 (Adrenal gland_Adenoma)"
+  },
+  {
+    "index": 91,
+    "key": "肾上腺_转移瘤",
+    "display": "肾上腺_转移瘤 (Adrenal gland_Metastasis)"
+  },
+  {
+    "index": 92,
+    "key": "肾上腺_钙化",
+    "display": "肾上腺_钙化 (Adrenal gland_Calcification)"
+  },
+  {
+    "index": 93,
+    "key": "胃_壁水肿",
+    "display": "胃_壁水肿 (Stomach_Wall edema)"
+  },
+  {
+    "index": 94,
+    "key": "胃_扩张",
+    "display": "胃_扩张 (Stomach_Dilatation)"
+  },
+  {
+    "index": 95,
+    "key": "胃_胃底静脉曲张",
+    "display": "胃_胃底静脉曲张 (Stomach_Gastric fundal varices)"
+  },
+  {
+    "index": 96,
+    "key": "胃_胃溃疡",
+    "display": "胃_胃溃疡 (Stomach_Ulcer)"
+  },
+  {
+    "index": 97,
+    "key": "胃_胃癌",
+    "display": "胃_胃癌 (Stomach_Gastric cancer)"
+  },
+  {
+    "index": 98,
+    "key": "胃_间质瘤（gist）",
+    "display": "胃_间质瘤（gist） (Stomach_Gastrointestinal stromal tumor (GIST))"
+  },
+  {
+    "index": 99,
+    "key": "胆囊_结石",
+    "display": "胆囊_结石 (Gallbladder_Cholecystolithiasis)"
+  },
+  {
+    "index": 100,
+    "key": "胆囊_结节状致密影",
+    "display": "胆囊_结节状致密影 (Gallbladder_Nodular stone-like hyperattenuating lesion)"
+  },
+  {
+    "index": 101,
+    "key": "胆囊_胆囊增大",
+    "display": "胆囊_胆囊增大 (Gallbladder_Distention)"
+  },
+  {
+    "index": 102,
+    "key": "胆囊_胆囊炎",
+    "display": "胆囊_胆囊炎 (Gallbladder_Cholecystitis)"
+  },
+  {
+    "index": 103,
+    "key": "胆囊_胆囊癌",
+    "display": "胆囊_胆囊癌 (Gallbladder_Gallbladder cancer)"
+  },
+  {
+    "index": 104,
+    "key": "胆囊_胆囊腺肌症",
+    "display": "胆囊_胆囊腺肌症 (Gallbladder_Adenomyomatosis)"
+  },
+  {
+    "index": 105,
+    "key": "胆囊_胆管壁增厚",
+    "display": "胆囊_胆管壁增厚 (Gallbladder_Extrahepatic bile duct wall thickening)"
+  },
+  {
+    "index": 106,
+    "key": "胆囊_胆管扩张",
+    "display": "胆囊_胆管扩张 (Gallbladder_Extrahepatic bile duct dilatation)"
+  },
+  {
+    "index": 107,
+    "key": "胆囊_胆管炎",
+    "display": "胆囊_胆管炎 (Gallbladder_Cholangitis)"
+  },
+  {
+    "index": 108,
+    "key": "胆囊_胆管癌",
+    "display": "胆囊_胆管癌 (Gallbladder_Cholangiocarcinoma)"
+  },
+  {
+    "index": 109,
+    "key": "胆囊_胆管积气",
+    "display": "胆囊_胆管积气 (Gallbladder_Pneumobilia)"
+  },
+  {
+    "index": 110,
+    "key": "胆囊_胆管结石",
+    "display": "胆囊_胆管结石 (Gallbladder_Extrahepatic bile duct stone)"
+  },
+  {
+    "index": 111,
+    "key": "胆囊_高密度影",
+    "display": "胆囊_高密度影 (Gallbladder_Hyperattenuating lesion)"
+  },
+  {
+    "index": 112,
+    "key": "胆囊_黄色肉芽肿",
+    "display": "胆囊_黄色肉芽肿 (Gallbladder_Xanthogranuloma)"
+  },
+  {
+    "index": 113,
+    "key": "胰腺_低密度影",
+    "display": "胰腺_低密度影 (Pancreas_Low-density lesion)"
+  },
+  {
+    "index": 114,
+    "key": "胰腺_囊肿",
+    "display": "胰腺_囊肿 (Pancreas_Cyst)"
+  },
+  {
+    "index": 115,
+    "key": "胰腺_围脂肪间隙模糊",
+    "display": "胰腺_围脂肪间隙模糊 (Pancreas_Blurring of peripancreatic fat planes)"
+  },
+  {
+    "index": 116,
+    "key": "胰腺_肿瘤或胰腺癌",
+    "display": "胰腺_肿瘤或胰腺癌 (Pancreas_Pancreatic cancer)"
+  },
+  {
+    "index": 117,
+    "key": "胰腺_胰周假性囊肿",
+    "display": "胰腺_胰周假性囊肿 (Pancreas_Peripancreatic pseudocyst)"
+  },
+  {
+    "index": 118,
+    "key": "胰腺_胰管扩张",
+    "display": "胰腺_胰管扩张 (Pancreas_Pancreatic duct dilatation)"
+  },
+  {
+    "index": 119,
+    "key": "胰腺_胰管结石",
+    "display": "胰腺_胰管结石 (Pancreas_Pancreatic duct calculus)"
+  },
+  {
+    "index": 120,
+    "key": "胰腺_胰腺炎",
+    "display": "胰腺_胰腺炎 (Pancreas_Pancreatitis)"
+  },
+  {
+    "index": 121,
+    "key": "胰腺_胰腺饱满",
+    "display": "胰腺_胰腺饱满 (Pancreas_Enlargement)"
+  },
+  {
+    "index": 122,
+    "key": "胰腺_萎缩",
+    "display": "胰腺_萎缩 (Pancreas_Atrophy)"
+  },
+  {
+    "index": 123,
+    "key": "脾_低密度灶",
+    "display": "脾_低密度灶 (Spleen_Hypoattenuating lesion)"
+  },
+  {
+    "index": 124,
+    "key": "脾_副脾",
+    "display": "脾_副脾 (Spleen_Accessory spleen)"
+  },
+  {
+    "index": 125,
+    "key": "脾_囊肿",
+    "display": "脾_囊肿 (Spleen_Cyst)"
+  },
+  {
+    "index": 126,
+    "key": "脾_梗死",
+    "display": "脾_梗死 (Spleen_Infarction)"
+  },
+  {
+    "index": 127,
+    "key": "脾_片状低密度区",
+    "display": "脾_片状低密度区 (Spleen_Patchy hypoattenuating lesion)"
+  },
+  {
+    "index": 128,
+    "key": "脾_脾大",
+    "display": "脾_脾大 (Spleen_Splenomegaly)"
+  },
+  {
+    "index": 129,
+    "key": "脾_脾脏淋巴瘤",
+    "display": "脾_脾脏淋巴瘤 (Spleen_Lymphoma)"
+  },
+  {
+    "index": 130,
+    "key": "脾_钙化",
+    "display": "脾_钙化 (Spleen_Calcification)"
+  },
+  {
+    "index": 131,
+    "key": "膀胱_憩室",
+    "display": "膀胱_憩室 (Bladder_Diverticulum)"
+  },
+  {
+    "index": 132,
+    "key": "膀胱_结石",
+    "display": "膀胱_结石 (Bladder_Stone)"
+  },
+  {
+    "index": 133,
+    "key": "膀胱_膀胱壁毛糙",
+    "display": "膀胱_膀胱壁毛糙 (Bladder_Wall irregularity)"
+  },
+  {
+    "index": 134,
+    "key": "膀胱_膀胱炎",
+    "display": "膀胱_膀胱炎 (Bladder_Cystitis)"
+  },
+  {
+    "index": 135,
+    "key": "膀胱_膀胱癌",
+    "display": "膀胱_膀胱癌 (Bladder_Bladder cancer)"
+  },
+  {
+    "index": 136,
+    "key": "膀胱_软组织密度影",
+    "display": "膀胱_软组织密度影 (Bladder_Soft-tissue attenuation lesion)"
+  },
+  {
+    "index": 137,
+    "key": "门静脉_增宽",
+    "display": "门静脉_增宽 (Portal vein_Dilatation)"
+  },
+  {
+    "index": 138,
+    "key": "门静脉_栓塞",
+    "display": "门静脉_栓塞 (Portal vein_Thrombosis)"
+  },
+  {
+    "index": 139,
+    "key": "门静脉_高压",
+    "display": "门静脉_高压 (Portal vein_Hypertension)"
+  },
+  {
+    "index": 140,
+    "key": "食管_增粗迂曲血管影",
+    "display": "食管_增粗迂曲血管影 (Esophagus_Dilated and tortuous tubular opacities)"
+  },
+  {
+    "index": 141,
+    "key": "食管_管壁增厚",
+    "display": "食管_管壁增厚 (Esophagus_Wall thickening)"
+  },
+  {
+    "index": 142,
+    "key": "食管_裂孔疝",
+    "display": "食管_裂孔疝 (Esophagus_Hiatal hernia)"
+  },
+  {
+    "index": 143,
+    "key": "食管_静脉扩张迂曲",
+    "display": "食管_静脉扩张迂曲 (Esophagus_Dilated and tortuous veins)"
+  },
+  {
+    "index": 144,
+    "key": "食管_静脉曲张",
+    "display": "食管_静脉曲张 (Esophagus_Varices)"
+  },
+  {
+    "index": 145,
+    "key": "骶骨_骨炎",
+    "display": "骶骨_骨炎 (Sacrum_Osteitis)"
+  }
+]

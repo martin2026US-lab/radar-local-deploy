@@ -1,0 +1,6 @@
+Community modifications to Alibaba-DAMO-Academy RADAR. Upstream authors retain their rights.
+Source: https://github.com/alibaba-damo-academy/damo-radar
+Tested upstream commit: 0dbf0ece209b77d722588e5e7943014d3db48f7f
+Original weights: https://huggingface.co/Alibaba-DAMO-Academy/RADAR
+Root license: CC BY-NC-SA 4.0; vendored BSD/MIT/Apache code retains its own notices.
+No endorsement by the original authors, Alibaba or NVIDIA is claimed.

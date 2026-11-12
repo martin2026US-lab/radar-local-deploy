@@ -1,0 +1,368 @@
+{
+  "release": "v0.1.0",
+  "comparison": "Engineering score agreement against same-case GPU FP32 with CPU stitching",
+  "dataset": "AbdomenAtlas3.0Mini, pinned f94cd3f4;100 random +100 coverage-enriched cases; not an independent clinical validation",
+  "full_case_count": 200,
+  "effective_task_successes": 790,
+  "effective_task_failures": 10,
+  "all_four_success_cases": 197,
+  "historical_versions_mixed": true,
+  "performance_cohort": "138 cases jointly successful under the final runtime configuration",
+  "primary_score_agreement": [
+    {
+      "scope": "current_common138",
+      "profile": "gpu_fp16_cpu_stitch",
+      "paired_cases": 138,
+      "finite_pairs": 19718,
+      "MAE": 0.0007467134933968599,
+      "case_mean_MAE": 0.0007489714762692627,
+      "max_absolute_difference": 0.17835652828216553,
+      "p95_absolute_difference": 0.0020994633436203,
+      "pairs_over_0_01": 226,
+      "cases_over_0_01": 44,
+      "pairs_over_0_1": 14,
+      "cases_over_0_1": 6,
+      "missing_value_pairs": 430,
+      "failed_case_pairs": 0
+    },
+    {
+      "scope": "current_common138",
+      "profile": "compact_fp16_crop_v2",
+      "paired_cases": 138,
+      "finite_pairs": 19718,
+      "MAE": 0.0007467134933968599,
+      "case_mean_MAE": 0.0007489714762692627,
+      "max_absolute_difference": 0.17835652828216553,
+      "p95_absolute_difference": 0.0020994633436203,
+      "pairs_over_0_01": 226,
+      "cases_over_0_01": 44,
+      "pairs_over_0_1": 14,
+      "cases_over_0_1": 6,
+      "missing_value_pairs": 430,
+      "failed_case_pairs": 0
+    },
+    {
+      "scope": "current_common138",
+      "profile": "trt_fp16_crop_v2",
+      "paired_cases": 138,
+      "finite_pairs": 19718,
+      "MAE": 0.0010181720134479805,
+      "case_mean_MAE": 0.0010212862330047658,
+      "max_absolute_difference": 0.49117444455623627,
+      "p95_absolute_difference": 0.0029265867546200714,
+      "pairs_over_0_01": 226,
+      "cases_over_0_01": 48,
+      "pairs_over_0_1": 31,
+      "cases_over_0_1": 8,
+      "missing_value_pairs": 430,
+      "failed_case_pairs": 0
+    }
+  ],
+  "resources": [
+    {
+      "profile": "gpu_fp32_cpu_stitch",
+      "n": 138,
+      "whole_CT_seconds": {
+        "n": 138,
+        "median": 38.17496120000578,
+        "mean": 41.50204567536212,
+        "p95": 60.810076900001896,
+        "max": 181.3442565999867
+      },
+      "dedicated_GPU_GiB": {
+        "n": 138,
+        "median": 5.704658508300781,
+        "mean": 6.465421759563943,
+        "p95": 10.74211082458496,
+        "max": 11.240440368652344
+      },
+      "shared_GPU_GiB": {
+        "n": 138,
+        "median": 0.080078125,
+        "mean": 0.24660326086956522,
+        "p95": 0.205078125,
+        "max": 9.369140625
+      },
+      "RSS_GiB": {
+        "n": 138,
+        "median": 4.903142929077148,
+        "mean": 5.548943091129911,
+        "p95": 8.88606700897217,
+        "max": 13.672618865966797
+      },
+      "private_commit_GiB": {
+        "n": 138,
+        "median": 11.917789459228516,
+        "mean": 12.9721021514008,
+        "p95": 18.005468940734865,
+        "max": 25.698108673095703
+      }
+    },
+    {
+      "profile": "gpu_fp16_cpu_stitch",
+      "n": 138,
+      "whole_CT_seconds": {
+        "n": 138,
+        "median": 30.602736549990368,
+        "mean": 32.65496452391243,
+        "p95": 44.46526364500169,
+        "max": 53.63118609999947
+      },
+      "dedicated_GPU_GiB": {
+        "n": 138,
+        "median": 6.081615447998047,
+        "mean": 6.812594759291497,
+        "p95": 10.943540763854982,
+        "max": 11.356929779052734
+      },
+      "shared_GPU_GiB": {
+        "n": 138,
+        "median": 0.080078125,
+        "mean": 0.3093155570652174,
+        "p95": 1.042773437500001,
+        "max": 9.26171875
+      },
+      "RSS_GiB": {
+        "n": 138,
+        "median": 5.051996231079102,
+        "mean": 5.709296572035638,
+        "p95": 9.315403175354005,
+        "max": 14.159706115722656
+      },
+      "private_commit_GiB": {
+        "n": 138,
+        "median": 12.435211181640625,
+        "mean": 13.482650369837664,
+        "p95": 18.458573722839354,
+        "max": 27.11473846435547
+      }
+    },
+    {
+      "profile": "compact_fp16_crop_v2",
+      "n": 138,
+      "whole_CT_seconds": {
+        "n": 138,
+        "median": 37.40286399999604,
+        "mean": 39.267457089130744,
+        "p95": 55.68607128000149,
+        "max": 67.97741689998657
+      },
+      "dedicated_GPU_GiB": {
+        "n": 138,
+        "median": 4.341365814208984,
+        "mean": 4.682714517565741,
+        "p95": 7.109065055847172,
+        "max": 11.109241485595703
+      },
+      "shared_GPU_GiB": {
+        "n": 138,
+        "median": 0.080078125,
+        "mean": 0.08098392210144928,
+        "p95": 0.080078125,
+        "max": 0.205078125
+      },
+      "RSS_GiB": {
+        "n": 138,
+        "median": 5.225011825561523,
+        "mean": 5.768578266751939,
+        "p95": 8.741988372802735,
+        "max": 13.818344116210938
+      },
+      "private_commit_GiB": {
+        "n": 138,
+        "median": 10.805383682250977,
+        "mean": 11.339493295420771,
+        "p95": 14.958897209167482,
+        "max": 19.35577392578125
+      }
+    },
+    {
+      "profile": "trt_fp16_crop_v2",
+      "n": 138,
+      "whole_CT_seconds": {
+        "n": 138,
+        "median": 34.35807609999756,
+        "mean": 36.64315038695592,
+        "p95": 52.16497578000199,
+        "max": 63.80193370000052
+      },
+      "dedicated_GPU_GiB": {
+        "n": 138,
+        "median": 3.126514434814453,
+        "mean": 3.440417579982592,
+        "p95": 5.200748443603516,
+        "max": 7.714439392089844
+      },
+      "shared_GPU_GiB": {
+        "n": 138,
+        "median": 0.080078125,
+        "mean": 0.080078125,
+        "p95": 0.080078125,
+        "max": 0.080078125
+      },
+      "RSS_GiB": {
+        "n": 138,
+        "median": 4.536985397338867,
+        "mean": 5.074611829674763,
+        "p95": 7.987481117248537,
+        "max": 12.997844696044922
+      },
+      "private_commit_GiB": {
+        "n": 138,
+        "median": 8.876171112060547,
+        "mean": 9.447847615117611,
+        "p95": 12.528813934326173,
+        "max": 17.3323974609375
+      }
+    }
+  ],
+  "success_by_profile": [
+    {
+      "profile": "gpu_fp32_cpu_stitch",
+      "label": "CPU拼接FP32（工作区修订）",
+      "full_attempted": 200,
+      "success": 198,
+      "failed": 2,
+      "current_attempted": 141,
+      "current_success": 139,
+      "current_failed": 2
+    },
+    {
+      "profile": "gpu_fp16_cpu_stitch",
+      "label": "CPU拼接FP16",
+      "full_attempted": 200,
+      "success": 197,
+      "failed": 3,
+      "current_attempted": 141,
+      "current_success": 138,
+      "current_failed": 3
+    },
+    {
+      "profile": "compact_fp16_crop_v2",
+      "label": "Compact FP16",
+      "full_attempted": 200,
+      "success": 197,
+      "failed": 3,
+      "current_attempted": 142,
+      "current_success": 139,
+      "current_failed": 3
+    },
+    {
+      "profile": "trt_fp16_crop_v2",
+      "label": "TensorRT FP16",
+      "full_attempted": 200,
+      "success": 198,
+      "failed": 2,
+      "current_attempted": 142,
+      "current_success": 140,
+      "current_failed": 2
+    }
+  ],
+  "failure_categories": {
+    "CPU_RAM_preflight": 8,
+    "TensorRT_dynamic_range": 1,
+    "system_RAM_runtime_guard": 1
+  },
+  "FP16_vs_Compact": {
+    "paired_success_cases": 197,
+    "bitwise_equal_score_vectors": 197,
+    "all_equal": true
+  },
+  "score_coverage": [
+    {
+      "profile": "gpu_fp32_cpu_stitch",
+      "successful_cases": 198,
+      "finite_score_count_distribution": {
+        "102": 1,
+        "107": 1,
+        "122": 1,
+        "126": 3,
+        "129": 1,
+        "137": 1,
+        "139": 25,
+        "140": 42,
+        "141": 3,
+        "143": 1,
+        "145": 3,
+        "146": 116
+      },
+      "total_finite_scores": 28267,
+      "N_A_slots_in_successful_vectors": 641,
+      "absent_slots_from_failed_cases": 292
+    },
+    {
+      "profile": "gpu_fp16_cpu_stitch",
+      "successful_cases": 197,
+      "finite_score_count_distribution": {
+        "102": 1,
+        "107": 1,
+        "122": 1,
+        "126": 3,
+        "129": 1,
+        "137": 1,
+        "139": 25,
+        "140": 40,
+        "141": 3,
+        "143": 1,
+        "145": 3,
+        "146": 117
+      },
+      "total_finite_scores": 28133,
+      "N_A_slots_in_successful_vectors": 629,
+      "absent_slots_from_failed_cases": 438
+    },
+    {
+      "profile": "compact_fp16_crop_v2",
+      "successful_cases": 197,
+      "finite_score_count_distribution": {
+        "102": 1,
+        "107": 1,
+        "122": 1,
+        "126": 3,
+        "129": 1,
+        "137": 1,
+        "139": 25,
+        "140": 40,
+        "141": 3,
+        "143": 1,
+        "145": 3,
+        "146": 117
+      },
+      "total_finite_scores": 28133,
+      "N_A_slots_in_successful_vectors": 629,
+      "absent_slots_from_failed_cases": 438
+    },
+    {
+      "profile": "trt_fp16_crop_v2",
+      "successful_cases": 198,
+      "finite_score_count_distribution": {
+        "102": 1,
+        "110": 1,
+        "122": 1,
+        "126": 3,
+        "129": 1,
+        "137": 1,
+        "139": 25,
+        "140": 41,
+        "141": 3,
+        "143": 1,
+        "145": 3,
+        "146": 117
+      },
+      "total_finite_scores": 28276,
+      "N_A_slots_in_successful_vectors": 632,
+      "absent_slots_from_failed_cases": 292
+    }
+  ],
+  "hardware": {
+    "GPU": "NVIDIA GeForce RTX5070 12GB, sm120",
+    "RAM_GiB": 23.194900512695312,
+    "logical_CPUs": 12,
+    "torch": "2.7.1+cu128",
+    "TensorRT": "10.13.3.9"
+  },
+  "timing": "Fresh-process whole CT wall time: imports/load, preprocessing, GPU inference, CPU stitch, scores, saved outputs and diagnostics. Peak memory columns summarize per-CT sampled peaks.",
+  "diagnostics_overhead": "FP32/Compact have more allocator logging than ordinary FP16/TensorRT; this is deployment wall time, not isolated kernel speed.",
+  "new_clinical_accuracy_claim": false,
+  "training_or_new_calibration": false
+}

@@ -1,0 +1,42 @@
+{
+  "models/radar_inference_only_v1.pth": {
+    "bytes": 522203623,
+    "sha256": "596e40f189404d248e37f5d8466a9ca80cbc5c93a726a2d73222023c26ec8de1"
+  },
+  "models/radar_inference_only_v1.manifest.json": {
+    "bytes": 518,
+    "sha256": "a022049e6289354d3e3ce660c1a4d568073e4b4e27846553a74f2625977fedc5"
+  },
+  "models/bert-base-chinese/config.json": {
+    "bytes": 656,
+    "sha256": "35881a186f11f4d1860c7cfc7c9c5bfc004cc8734cbf162746113ca94bdbb629"
+  },
+  "models/int8_experiment/vision_fp16.plan": {
+    "bytes": 54983820,
+    "sha256": "364898dd1638f17a6079907b9c6131b259e2e4f2c52aa0ca839925239dda5493"
+  },
+  "models/int8_experiment/vision_fp16.manifest.json": {
+    "bytes": 908,
+    "sha256": "a65e91afe1c7f620c29bf4d331225de89bd8ac41cb96bcd01b7026a25db522b5"
+  },
+  "models/int8_experiment/scoring_fp32.pth": {
+    "bytes": 10587805,
+    "sha256": "ac235cff1e5e8092d8aaf1eceb67fffc64194b514dc8eca4f25c158c1d70c15d"
+  },
+  "models/trt_dynamic/vision_dynamic_fp16.plan": {
+    "bytes": 54532972,
+    "sha256": "cf42f6b39e099c872f06d72ef0b3edbf360b740bfbe3b54d7ac2ca1d69b094d8"
+  },
+  "models/trt_dynamic/vision_dynamic_fp16.manifest.json": {
+    "bytes": 1531,
+    "sha256": "8e5c743f8c3b84e3741cd9d6572b77ad523e0c0e38d607188b8a90dc0be62b64"
+  },
+  "models/vision_fp32.onnx": {
+    "bytes": 103701542,
+    "sha256": "557de851962ad945b92f89f8368b927b9545a9fe65aab913fa16c16c6857cafd"
+  },
+  "upstream/ckpt/infer_text_embedding_radar.pt": {
+    "bytes": 346348,
+    "sha256": "0ac960b0300c2ba10526e3bf500cd0c879fe5d9d15b9c49c17c34f0fc40e6cbe"
+  }
+}
