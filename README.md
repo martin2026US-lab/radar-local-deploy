@@ -1,5 +1,13 @@
 # RADAR Local Deploy — v0.1.0 research preview
 
+## S1D2 research result · fixed 200 CTs
+
+All 200 whole-CT requests completed with S1D2 ordinary windows and FP16 fallback. Against the same-backend FP32 reference, mean absolute score difference fell from **0.00091625** with ordinary FP16 to **0.00031516** on the same 28,559 finite pairs (**65.6% lower**). **Nine score differences across five CTs exceeded 0.1**, down from 38 positions with ordinary FP16. The maximum was **0.331178** for portal vein widening (FP32 0.190203, S1D2 0.521382). Four portal vein differences newly exceeded 0.1. This engineering supplement uses the local research runner; the v0.1.0 primary comparison uses its frozen 138-case cohort.
+
+[All nine outliers and precision recipe](docs/S1D2_FIXED200.md) · [Aggregate JSON](benchmark/s1d2_fixed200.json)
+
+## v0.1.0 published results
+
 Four community deployment configurations of [RADAR](https://github.com/alibaba-damo-academy/damo-radar), preserving CPU stitching and fixed 146-finding scoring. No retraining, structural pruning, added LLM, or new clinical-accuracy claim.
 
 On **138 jointly successful CT scans under the final runtime configuration**, mean absolute score differences from same-case GPU FP32 + CPU stitching were **0.000747 for FP16 and Compact FP16**, and **0.001018 for TensorRT FP16**. The corresponding 95th-percentile absolute differences were 0.002099 and 0.002927. These are engineering agreement metrics, not training loss, AUROC, diagnostic accuracy, or proof that every finding is preserved.

@@ -1,0 +1,124 @@
+{
+  "cohort": "Fixed 200 CTs; engineering comparison",
+  "reference": "Historical same-backend GPU FP32 with CPU stitching",
+  "score_positions": 29200,
+  "completion": {
+    "completed": 200,
+    "structural_pass": 200,
+    "inference_failures": 0,
+    "resource_failures": 0
+  },
+  "coverage": {
+    "finite_pairs": 28559,
+    "both_na": 635,
+    "fp32_na_s1d2_finite": 6,
+    "fp32_finite_s1d2_na": 0
+  },
+  "mean_absolute_difference": 0.0003151613910172298,
+  "ordinary_fp16_mae": 0.000916249318219188,
+  "relative_mae_reduction": 0.6560309680450579,
+  "absolute_difference_gt_0_1": {
+    "s1d2": 9,
+    "ordinary_fp16": 38,
+    "cases": 5,
+    "persisting": 5,
+    "new": 4,
+    "resolved": 33
+  },
+  "max_absolute_difference": 0.33117835223674774,
+  "outliers": [
+    {
+      "case_alias": "A",
+      "finding": "胃_间质瘤（gist）",
+      "finding_en": "GIST",
+      "fp32": 0.4476782977581024,
+      "s1d2": 0.18590083718299866,
+      "absolute_difference": 0.26177746057510376,
+      "also_above_threshold_in_ordinary_fp16": true
+    },
+    {
+      "case_alias": "B",
+      "finding": "骶骨_骨炎",
+      "finding_en": "Sacrum_Osteitis",
+      "fp32": 0.8862193822860718,
+      "s1d2": 0.7749881148338318,
+      "absolute_difference": 0.11123126745223999,
+      "also_above_threshold_in_ordinary_fp16": true
+    },
+    {
+      "case_alias": "C",
+      "finding": "门静脉_栓塞",
+      "finding_en": "Portal vein_Thrombosis",
+      "fp32": 0.029728252440690994,
+      "s1d2": 0.15363621711730957,
+      "absolute_difference": 0.12390796467661858,
+      "also_above_threshold_in_ordinary_fp16": false
+    },
+    {
+      "case_alias": "D",
+      "finding": "门静脉_增宽",
+      "finding_en": "Portal vein_Dilatation",
+      "fp32": 0.19020332396030426,
+      "s1d2": 0.521381676197052,
+      "absolute_difference": 0.33117835223674774,
+      "also_above_threshold_in_ordinary_fp16": false
+    },
+    {
+      "case_alias": "D",
+      "finding": "门静脉_高压",
+      "finding_en": "Portal vein_Hypertension",
+      "fp32": 0.09639954566955566,
+      "s1d2": 0.41918808221817017,
+      "absolute_difference": 0.3227885365486145,
+      "also_above_threshold_in_ordinary_fp16": false
+    },
+    {
+      "case_alias": "D",
+      "finding": "门静脉_栓塞",
+      "finding_en": "Portal vein_Thrombosis",
+      "fp32": 0.012075587175786495,
+      "s1d2": 0.23998066782951355,
+      "absolute_difference": 0.22790508065372705,
+      "also_above_threshold_in_ordinary_fp16": false
+    },
+    {
+      "case_alias": "E",
+      "finding": "大肠_阑尾粪石",
+      "finding_en": "Large bowel_Appendicolith",
+      "fp32": 0.35849878191947937,
+      "s1d2": 0.18963387608528137,
+      "absolute_difference": 0.168864905834198,
+      "also_above_threshold_in_ordinary_fp16": true
+    },
+    {
+      "case_alias": "E",
+      "finding": "大肠_阑尾炎",
+      "finding_en": "Large bowel_Appendicitis",
+      "fp32": 0.38783949613571167,
+      "s1d2": 0.275127112865448,
+      "absolute_difference": 0.11271238327026367,
+      "also_above_threshold_in_ordinary_fp16": true
+    },
+    {
+      "case_alias": "E",
+      "finding": "大肠_肠穿孔",
+      "finding_en": "Large bowel_Perforation",
+      "fp32": 0.4728245735168457,
+      "s1d2": 0.3688508868217468,
+      "absolute_difference": 0.10397368669509888,
+      "also_above_threshold_in_ordinary_fp16": true
+    }
+  ],
+  "ordinary_window_outputs_retained": 1018,
+  "fallback_outer_copies_skipped": 753,
+  "whole_ct_request_seconds": {
+    "mean": 19.070822691999926,
+    "median": 15.828512950000004
+  },
+  "smallest_sampled_whole_device_free_GiB": 0.24539566040039062,
+  "evidence_sha256": {
+    "paired_29200.csv": "b1570f86eb4641d54b2f56ac24357b8e63e63042b5a47ef5fefb351c0fade42f",
+    "cases_200.csv": "9e8518f096d01b4e0d94f886364de3fa64dfda03f5acdbe33fca1bf28bb11947",
+    "all_score_pairs29200.jsonl": "67137e21efbb62f66d653acdf992687d57655528218174f36cd7565936f331cd"
+  }
+}
