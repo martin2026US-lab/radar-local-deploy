@@ -1,35 +1,44 @@
-# RADAR Local Deploy — v0.1.0 research preview
+# RADAR Local Deploy
 
-## S1D2 research result · fixed 200 CTs
+This project compares five ways to run the same trained [RADAR](https://github.com/alibaba-damo-academy/damo-radar) weights on a local CUDA GPU. The GPU processes CT windows, the CPU stitches their probabilities, and the model returns a fixed set of 146 abdominal CT finding scores. GPU FP32 provides the numerical reference. Ordinary FP16 changes visual precision, Compact FP16 also reduces checkpoint size, and TensorRT FP16 runs a compiled engine. The v0.1.0 CLI ships these four profiles. The fifth configuration, S1D2, was evaluated with the local research runner.
 
-All 200 whole-CT requests completed with S1D2 ordinary windows and FP16 fallback. Against the same-backend FP32 reference, mean absolute score difference fell from **0.00091625** with ordinary FP16 to **0.00031516** on the same 28,559 finite pairs (**65.6% lower**). **Nine score differences across five CTs exceeded 0.1**, down from 38 positions with ordinary FP16. The maximum was **0.331178** for portal vein widening (FP32 0.190203, S1D2 0.521382). Four portal vein differences newly exceeded 0.1. This engineering supplement uses the local research runner; the v0.1.0 primary comparison uses its frozen 138-case cohort.
+**S1D2 ordinary windows + FP16 fallback** keeps the first encoder block, the last two decoder blocks and the final 37-class segmentation convolution in FP32 on ordinary windows. The rest of the ordinary visual path and all fallback visual forwards use FP16. The scoring head stays in FP32. After scoring a fallback crop, the runner skips the outer probability upsampling and CPU copy that the caller would discard. It retains internal masks, organ features, crop selection and the original probability averaging order.
 
-[All nine outliers and precision recipe](docs/S1D2_FIXED200.md) · [Aggregate JSON](benchmark/s1d2_fixed200.json)
+## Five configurations on the same 138 CTs
 
-## v0.1.0 published results
+Mean absolute score difference is averaged over 19,718 finite finding-score pairs against same-case GPU FP32. Time is the median for a whole CT. GPU memory and process-tree RSS are medians of the sampled peak for each CT. Measurements used an RTX 5070 12 GB.
 
-Four community deployment configurations of [RADAR](https://github.com/alibaba-damo-academy/damo-radar), preserving CPU stitching and fixed 146-finding scoring. No retraining, structural pruning, added LLM, or new clinical-accuracy claim.
-
-On **138 jointly successful CT scans under the final runtime configuration**, mean absolute score differences from same-case GPU FP32 + CPU stitching were **0.000747 for FP16 and Compact FP16**, and **0.001018 for TensorRT FP16**. The corresponding 95th-percentile absolute differences were 0.002099 and 0.002927. These are engineering agreement metrics, not training loss, AUROC, diagnostic accuracy, or proof that every finding is preserved.
-
-| Configuration | Mean absolute score difference | Whole-CT median | Median per-CT dedicated GPU peak | Median per-CT RSS peak |
+| Configuration | Mean absolute score difference | Median whole-CT time | Median peak dedicated GPU memory | Median peak process-tree RSS |
 |---|---:|---:|---:|---:|
 | GPU FP32, CPU stitch, streamed workspace | reference | 38.17 s | 5.70 GiB | 4.90 GiB |
 | GPU FP16, CPU stitch | 0.000747 | 30.60 s | 6.08 GiB | 5.05 GiB |
 | Compact FP16, CPU stitch | 0.000747 | 37.40 s | 4.34 GiB | 5.23 GiB |
 | TensorRT FP16, CPU stitch | 0.001018 | 34.36 s | 3.13 GiB | 4.54 GiB |
+| **S1D2 ordinary windows + all-FP16 fallback, CPU stitch** | 0.000288 | 19.86 s | 5.42 GiB | 5.18 GiB |
+
+The first four rows reproduce the frozen v0.1.0 table. The fifth uses later S1D2 runs for those exact 138 CTs, paired directly with the frozen FP32 scores. Four absolute differences exceeded 0.1 across two CTs in this subset. S1D2 time spans launch to exit of one fresh worker per CT, including imports, inference, output and weight verification. Instrumentation and verification overhead differed across runners, which limits speed comparisons.
+
+## S1D2 on the full fixed set of 200 CTs
+
+All 200 CTs completed with zero resource failures. Across the same 28,559 finite pairs, mean absolute difference from same-backend FP32 fell from **0.00091625** for ordinary FP16 to **0.00031516** for S1D2, a **65.6% reduction**. Absolute differences above 0.1 fell from 38 positions to **9 across 5 CTs**. Five of the original 38 remained above threshold, and four portal vein scores newly crossed it. The largest difference was **0.331178** for portal vein widening (FP32 0.190203, S1D2 0.521382).
+
+Both runs returned N/A at 635 positions. At six additional positions FP32 returned N/A and S1D2 returned a score. These positions were counted separately. Agreement with FP32 measures numerical consistency; clinical performance requires independent validation.
+
+[All nine outliers and precision recipe](docs/S1D2_FIXED200.md) · [Aggregate JSON](benchmark/s1d2_fixed200.json)
+
+## v0.1.0 checkpoint and validation details
 
 Compact and ordinary FP16 produced exactly identical score vectors, including missing-value positions, on all **197 jointly successful cases** in the effective 200-case record. Compact retains the same 693 model tensors; it removes training state, reducing the checkpoint from 1,566,049,482 to 522,203,623 bytes. It is not a pruned network or a separately trained model. CPU stitching still requires a CUDA GPU for visual inference.
 
 ## Scope and known limitations
 
-- Full effective record: **200 CTs / 800 configuration slots, 790 successes and 10 failures**, 197 CTs completing all four configurations. Successes: FP32 198/200, ordinary FP16 197/200, Compact 197/200, TensorRT 198/200. Prior failed attempts remain in the local audit, with separate successful retest provenance.
+- v0.1.0 four-profile record: **200 CTs / 800 configuration slots, 790 successes and 10 failures**, 197 CTs completing all four configurations. Successes: FP32 198/200, ordinary FP16 197/200, Compact 197/200, TensorRT 198/200. Prior failed attempts remain in the local audit, with separate successful retest provenance.
 - The ten current failures affect three CTs: **8 CPU RAM preflight rejections, 1 system-RAM protection failure, 1 TensorRT shape-range rejection**. They were not recorded as CUDA OOMs. The full 37-channel FP32 CPU stitching accumulator can exceed 10–12 GiB. RAM safeguards remain enabled; no per-process GPU memory quota is set.
-- Rare large score disagreements remain. In the 138-case cohort, maximum absolute differences were **0.178357 for ordinary/Compact FP16** and **0.491174 for TensorRT**. Differences above 0.1 occurred in 14/19,718 valid score pairs across 6/138 cases for ordinary/Compact FP16, and 31/19,718 pairs across 8/138 cases for TensorRT. The largest TensorRT example was adrenal adenoma: FP32 0.654870 versus TensorRT 0.163695. Its cause requires further tracing; no clinical interpretation is established. Historical inherited FP16 results also contain a maximum difference of 0.379382.
+- In the frozen 138, the 95th-percentile absolute differences were 0.002099 for ordinary/Compact FP16 and 0.002927 for TensorRT. In the 138-case cohort, maximum absolute differences were **0.178357 for ordinary/Compact FP16** and **0.491174 for TensorRT**. Differences above 0.1 occurred in 14/19,718 valid score pairs across 6/138 cases for ordinary/Compact FP16, and 31/19,718 pairs across 8/138 cases for TensorRT. The largest TensorRT example was adrenal adenoma: FP32 0.654870 versus TensorRT 0.163695. Its cause requires further tracing; no clinical interpretation is established. Historical inherited FP16 results also contain a maximum difference of 0.379382.
 - Fixed146 positions do not mean 146 valid values per CT. Successful vectors contain 102–146 finite scores; unavailable organ scores remain null/N/A. Failed attempts are not converted to negative labels or zero-filled.
 - Data: AbdomenAtlas 3.0 Mini snapshot f94cd3f4, 100 random + 100 coverage-enriched cases. Source independence and absence of upstream exposure are not asserted. AMOS20 had already been exposed during development. This does not reproduce the original 146-condition clinical study.
-- Historical measurements used different runtime revisions/quotas. The resource table uses only the final-configuration common 138 subset. The benchmark comes from frozen Windows adapters. This portable CLI adds asset/input/output routing and has static/import/hash checks; its new entry point was **not rerun on the 200-case cohort**.
-- Tested hardware: RTX 5070 12 GB / SM 12.0, approximately 23.20 GiB OS-visible RAM, Python 3.11, PyTorch 2.7.1+cu128, TensorRT 10.13.3.9. Times include fresh process, imports/loading, preprocessing, inference, CPU stitching, scoring, saved files and diagnostics. FP32/Compact had more allocator logging than the other configurations.
+- Historical measurements used different runtime revisions/quotas. The original four rows use the frozen Windows adapters on the final-configuration common 138 subset. This portable CLI adds asset/input/output routing and has static/import/hash checks; its new entry point was **not rerun on the 200-case cohort**.
+- Tested hardware: RTX 5070 12 GB / SM 12.0, approximately 23.20 GiB OS-visible RAM, Python 3.11, PyTorch 2.7.1+cu128, TensorRT 10.13.3.9. The v0.1.0 times include fresh process, imports/loading, preprocessing, inference, CPU stitching, scoring, saved files and diagnostics. FP32/Compact had more allocator logging than the other configurations.
 
 ## Install and run
 
